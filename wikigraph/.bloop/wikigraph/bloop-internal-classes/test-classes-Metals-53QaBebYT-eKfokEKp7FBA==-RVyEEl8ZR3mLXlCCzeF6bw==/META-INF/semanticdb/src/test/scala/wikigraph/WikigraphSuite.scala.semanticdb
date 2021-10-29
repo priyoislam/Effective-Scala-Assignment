@@ -1,0 +1,2994 @@
+
+ä’-src/test/scala/wikigraph/WikigraphSuite.scala*0
+wikigraph/WikigraphSuite#*WikigraphSuiteÄ*6
+$wikigraph/WikigraphSuite#`<init>`(). Ä@*<init>Ä*@
+'wikigraph/WikigraphSuite#given_Gen_Int. Ë*given_Gen_IntÄ*F
+*wikigraph/WikigraphSuite#given_Gen_String. Ë*given_Gen_StringÄ*0
+wikigraph/WikigraphSuite#idGen. Ë*idGenÄ*B
+(wikigraph/WikigraphSuite#artNotFoundGen. Ë*artNotFoundGenÄ*>
+&wikigraph/WikigraphSuite#wikiErrorGen. Ë*wikiErrorGenÄ*
+local0*idÄ*
+local1*funcÄ*F
+*wikigraph/WikigraphSuite#wikiExceptionGen. Ë*wikiExceptionGenÄ*?
+)wikigraph/WikigraphSuite#wikiResultGen().*wikiResultGenÄ*6
+,wikigraph/WikigraphSuite#wikiResultGen().[A]	*AÄ*H
+5wikigraph/WikigraphSuite#wikiResultGen().(withErrors)*
+withErrorsÄ*J
+6wikigraph/WikigraphSuite#wikiResultGen().(withFailure)*withFailureÄ*B
+1wikigraph/WikigraphSuite#wikiResultGen().(errGen)  *errGenÄ*B
+1wikigraph/WikigraphSuite#wikiResultGen().(resGen)  *resGenÄ*
+local2 Ä*	eitherGenÄ*
+local3 Ä*successÄ*
+local4*resÄ*
+local5*errorsÄ*
+local6*errÄ*
+local7 Ä*successÄ*
+local8*eiÄ*
+local9*isFailedÄ*
+local10*errÄ*
+local11 Ä*genAÄ*
+local12 Ä*genBÄ*
+local13 Ä*genABÄ*
+local14*lÄ*
+local15*rÄ*
+local16*x$1Ä*
+local17*aÄ*
+local18*bÄ*
+local19 Ä*obtainedÄ*
+local20 Ä*expectedÄ*
+local21*eiLÄ*
+local22*eiRÄ*
+local23*lÄ*
+local24*rÄ*
+local25*bÄ*
+local26*tÄ*
+local27 Ä*genAÄ*
+local28 Ä*genBÄ*
+local29 Ä*genABÄ*
+local30*lÄ*
+local31*rÄ*
+local32*x$1Ä*
+local33*aÄ*
+local34*bÄ*
+local35 Ä*obtainedÄ*
+local36 Ä*errsÄ*
+local37*tÄ*
+local38 Ä*genAÄ*
+local39 Ä*genBÄ*
+local40 Ä*genABÄ*
+local41*lÄ*
+local42*rÄ*
+local43*x$1Ä*
+local44*aÄ*
+local45*bÄ*
+local46 Ä*obtainedÄ*
+local47 Ä*errsÄ*
+local48*tÄ*
+local49*lsÄ*
+local50 Ä*pureÄ*
+local51*xÄ*
+local52 Ä*toResultÄ*
+local53*xÄ*
+local54 Ä*obtainedÄ*
+local55 Ä*expectedÄ*
+local56*bÄ*
+local57*lÄ*
+local58*listOfResultsÄ*
+local59 Ä*pureÄ*
+local60*xÄ*
+local61 Ä*obtainedÄ*
+local62 Ä*expectedÄ*!
+local63 Ä*expectedErrorsÄ*!
+local64 Ä*expectedResultÄ*
+local65*lÄ*
+local66*listOfResultsÄ*
+local67 Ä*pureÄ*
+local68*xÄ*
+local69 Ä*obtainedÄ*
+local70 Ä*failureÄ*!
+local71 Ä*expectedResultÄ*
+local72 Ä*errorsÄ*!
+local73 Ä*expectedResultÄ*"
+local74 Ä*expectedResultsÄ*
+local75*lÄ*
+local76*wÄ*
+local77 Ä*obtainedÄ*
+local78*tÄ*
+local79*wÄ*
+local80*fÄ*
+local81*xÄ*
+local82 Ä*obtainedÄ*
+local83*xÄ*
+local84 Ä*expectedÄ*
+local85*tÄ*
+local86*wÄ*
+local87 Ä*errÄ*
+local88*fÄ*
+local89*xÄ*
+local90 Ä*obtainedÄ*
+local91*xÄ*
+local92*tÄ*
+local93*wÄ*
+local94 Ä*exÄ*
+local95*fÄ*
+local96*xÄ*
+local97 Ä*obtainedÄ*
+local98*xÄ*
+local99*tÄ*
+local100 Ä*gÄ*
+local101 Ä*resÄ*
+local102 Ä*gÄ*
+local103 Ä*resÄ*
+local104 Ä*gÄ*
+local105 Ä*resÄ*
+local106 Ä*gÄ*
+local107 Ä*resÄ*
+local108 Ä*gÄ*
+local109 Ä*resÄ*
+local110 Ä*expÄ*
+local111 Ä*linksÄ*
+local112 Ä*graphÄ*
+local113*setUpÄ*
+local114*
+withErrorsÄ*
+local115*withFailureÄ*!
+local116 Ä*failableLinksÄ*
+local117 Ä*setOfGenÄ*
+local118*xÄ*
+local119*gÄ*
+local120*setÄ*
+local121*xÄ* 
+local122 Ä*nameSearcherÄ*
+local123 Ä*allÄ*
+local124 Ä*gensÄ*
+local125*nodeÄ*
+local126*rÄ*
+local127*listOfTuplesÄ*
+local128*artÄ*
+local129 Ä*resÄ*
+local130 Ä*	generatorÄ*
+local131*lsÄ*
+local132*fÄ*
+local133*x$1Ä*
+local134*linksÄ*
+local135*fÄ*
+local136 Ä*clientÄ*
+local137 *$anonÄ*
+local138*	linksFromÄ*
+local139*artÄ*
+local140  *x$2Ä*
+local141*nameOfArticleÄ*
+local142*artÄ*
+local143  *x$2Ä*
+local144*searchIdÄ*
+local145*titleÄ*
+local146  *x$2Ä*
+local147 Ä*wgÄ*
+local148 Ä*resultÄ*
+local149 Ä*resultsÄ*
+local150 Ä*nameFailÄ*
+local151*x$1Ä*
+local152 Ä*wÄ*
+local153 Ä*
+nameErrorsÄ*
+local154*tÄ*
+local155 Ä*resÄ*5
+$wikigraph/WikigraphSuite#property().*propertyÄ*7
+*wikigraph/WikigraphSuite#property().(name)*nameÄ*7
+*wikigraph/WikigraphSuite#property().(prop)*propÄ*7
+)wikigraph/WikigraphSuite#property().(x$3)  *x$3Ä*?
+)wikigraph/WikigraphSuite#checkProperty().*checkPropertyÄ*<
+/wikigraph/WikigraphSuite#checkProperty().(prop)*propÄ*
+local156 Ä*resultÄ*
+local157*failureÄ*
+local158*labelsÄ*
+local159*fallbackÄ*
+local160 Ä*labelsÄ*
+local161 Ä*eÄ*
+local162 Ä*labelsÄ*
+local163 Ä*eÄ*
+local164 Ä*labelsÄ2
+ 
+wikigraph/2
+ org/scalacheck/2
+ 
+org/2.
+  org/scalacheck/Prop.forAll(+15).2.
+  org/scalacheck/Prop.forAll(+14).2.
+  org/scalacheck/Prop.forAll(+13).2.
+  org/scalacheck/Prop.forAll(+12).2.
+  org/scalacheck/Prop.forAll(+11).2.
+  org/scalacheck/Prop.forAll(+10).2-
+ org/scalacheck/Prop.forAll(+9).2-
+ org/scalacheck/Prop.forAll(+8).2-
+ org/scalacheck/Prop.forAll(+7).2-
+ org/scalacheck/Prop.forAll(+6).2-
+ org/scalacheck/Prop.forAll(+5).2-
+ org/scalacheck/Prop.forAll(+4).2-
+ org/scalacheck/Prop.forAll(+3).2-
+ org/scalacheck/Prop.forAll(+2).2-
+ org/scalacheck/Prop.forAll(+1).2+
+ org/scalacheck/Prop.forAll().20
+  "org/scalacheck/Prop.propBoolean().2"
+ org/scalacheck/Prop.2
+ 
+wikigraph/2#
+ wikigraph/WikiResult.2
+ 
+wikigraph/2!
+ wikigraph/Articles.2
+ 
+wikigraph/21
+! )#wikigraph/implementations/InMemory#2(
+  wikigraph/implementations/2
+ 
+wikigraph/2
+		 wikigraph/errors/2
+		 
+wikigraph/2)
+
+
+ !wikigraph/errors/WikiError.2
+
+
+ wikigraph/errors/2
+
+
+ 
+wikigraph/2 
+ wikigraph/testing/2
+ 
+wikigraph/2
+ scala/util/Try.2
+ scala/util/Try#2!
+ scala/util/Success.2!
+ scala/util/Success#2!
+* 1scala/util/Failure.2!
+* 1scala/util/Failure#2
+ scala/util/2
+ scala/2%
+ scala/concurrent/Await.2&
+  &scala/concurrent/Future.2&
+  &scala/concurrent/Future#20
+( 8"scala/concurrent/ExecutionContext.20
+( 8"scala/concurrent/ExecutionContext#2
+ scala/concurrent/2
+ scala/21
+! )#scala/concurrent/duration/Duration.21
+! )#scala/concurrent/duration/Duration#2(
+  scala/concurrent/duration/2
+ scala/concurrent/2
+ scala/2:
+) 2,scala/concurrent/ExecutionContext.Implicits.20
+ ("scala/concurrent/ExecutionContext.2
+ scala/concurrent/2
+ scala/2'
+ wikigraph/WikigraphSuite#22
+ $wikigraph/WikigraphSuite#`<init>`().2(
++ +munit/FunSuite#`<init>`().2
+# +munit/FunSuite#2
+ "munit/25
+ 'wikigraph/WikigraphSuite#given_Gen_Int.2!
+ org/scalacheck/Gen#2
+ 
+scala/Int#2>
+ &0org/scalacheck/ArbitraryLowPriority#arbitrary().2'
+ org/scalacheck/Arbitrary.2
+' *
+scala/Int#29
++ ++org/scalacheck/ArbitraryLowPriority#arbInt.28
+ *wikigraph/WikigraphSuite#given_Gen_String.2!
+ org/scalacheck/Gen#2"
+ scala/Predef.String#2>
+  )0org/scalacheck/ArbitraryLowPriority#arbitrary().2'
+ org/scalacheck/Arbitrary.2"
+* 0scala/Predef.String#2<
+1 1.org/scalacheck/ArbitraryLowPriority#arbString.2-
+ wikigraph/WikigraphSuite#idGen.2!
+ org/scalacheck/Gen#2+
+ wikigraph/Articles.ArticleId#2'
+ org/scalacheck/Gen#map().2*
+ org/scalacheck/Gen.posNum().2!
+ org/scalacheck/Gen.2
+ 
+scala/Int#2/
+ !scala/math/Numeric.IntIsIntegral.22
+ $org/scalacheck/Gen.Choose.chooseInt.23
+! !%wikigraph/Articles.ArticleId.apply().2+
+ !wikigraph/Articles.ArticleId.26
+ (wikigraph/WikigraphSuite#artNotFoundGen.2!
+ org/scalacheck/Gen#29
+ ++wikigraph/errors/WikiError.ArticleNotFound#2'
+
+ org/scalacheck/Gen#map().2-
+ 	wikigraph/WikigraphSuite#idGen.2A
+ 3wikigraph/errors/WikiError.ArticleNotFound.apply().29
+ +wikigraph/errors/WikiError.ArticleNotFound.24
+ &wikigraph/WikigraphSuite#wikiErrorGen.2!
+ org/scalacheck/Gen#2)
+ #wikigraph/errors/WikiError#2+
+ org/scalacheck/Gen#flatMap().2-
+ wikigraph/WikigraphSuite#idGen.2
+ local02'
+= =org/scalacheck/Gen#map().2+
+ org/scalacheck/Gen.oneOf(+2).2!
+ org/scalacheck/Gen.2A
+' '3wikigraph/errors/WikiError.ArticleNotFound.apply().29
+ '+wikigraph/errors/WikiError.ArticleNotFound.2?
+9 91wikigraph/errors/WikiError.TitleNotFound.apply().27
+, 9)wikigraph/errors/WikiError.TitleNotFound.2
+ 
+local12&
+ scala/Function1#apply().2
+
+ local12
+ local028
+   *wikigraph/WikigraphSuite#wikiExceptionGen.2!
+   org/scalacheck/Gen#2-
+   +wikigraph/errors/WikiException#2+
+!! org/scalacheck/Gen.oneOf(+2).2!
+!! org/scalacheck/Gen.25
+!! #'wikigraph/errors/WikiException.Timeout.2-
+!! wikigraph/errors/WikiException.2=
+!3! B/wikigraph/errors/WikiException.TooManyRequests.2-
+!%! 2wikigraph/errors/WikiException.2F
+!b! b8wikigraph/errors/WikiException.ResourceNotFound.apply().2>
+!R! b0wikigraph/errors/WikiException.ResourceNotFound.2-
+!D! Qwikigraph/errors/WikiException.27
+## )wikigraph/WikigraphSuite#wikiResultGen().2:
+## ,wikigraph/WikigraphSuite#wikiResultGen().[A]2C
+## !5wikigraph/WikigraphSuite#wikiResultGen().(withErrors)2
+### *scala/Boolean#2D
+#,# 76wikigraph/WikigraphSuite#wikiResultGen().(withFailure)2
+#9# @scala/Boolean#2?
+#H# N1wikigraph/WikigraphSuite#wikiResultGen().(errGen)2!
+#P# Sorg/scalacheck/Gen#2)
+#T# ]wikigraph/errors/WikiError#2?
+#`# f1wikigraph/WikigraphSuite#wikiResultGen().(resGen)2!
+#h# korg/scalacheck/Gen#2:
+#l# m,wikigraph/WikigraphSuite#wikiResultGen().[A]2!
+#q# torg/scalacheck/Gen#2#
+#u# wikigraph/WikiResult#2<
+
+#Ä# Å,wikigraph/WikigraphSuite#wikiResultGen().[A]2
+$$ local22!
+$$ org/scalacheck/Gen#2#
+$$ scala/package.Either#2 
+$$ !scala/package.Seq#2)
+$"$ +wikigraph/errors/WikiError#2:
+$.$ /,wikigraph/WikigraphSuite#wikiResultGen().[A]2
+%
+% local32!
+%% org/scalacheck/Gen#2#
+%% scala/package.Either#2 
+%% !scala/package.Seq#2)
+%"% +wikigraph/errors/WikiError#2:
+%.% /,wikigraph/WikigraphSuite#wikiResultGen().[A]2'
+%;% >org/scalacheck/Gen#map().2?
+%4% :1wikigraph/WikigraphSuite#wikiResultGen().(resGen)2
+%?% Blocal42'
+%K% Kscala/util/Right.apply().2"
+%F% Kscala/package.Right.2
+%L% Olocal42(
+&& scala/Boolean#`unary_!`().2C
+&
+& 5wikigraph/WikigraphSuite#wikiResultGen().(withErrors)2
+&& !local32+
+'4' ;org/scalacheck/Gen#flatMap().2/
+'' !org/scalacheck/Gen.containerOf().2!
+'' org/scalacheck/Gen.2!
+'' scala/package.List#2)
+'!' *wikigraph/errors/WikiError#2?
+',' 21wikigraph/WikigraphSuite#wikiResultGen().(errGen)2N
+'3' 3@org/scalacheck/util/BuildableVersionSpecific#buildableFactory().2A
+'3' 33scala/collection/IterableFactory#iterableFactory().2'
+'3' 3scala/Predef.$conforms().2
+'>' Dlocal52:
+(( ,scala/collection/IterableOnceOps#nonEmpty().2
+(( local52'
+('( *org/scalacheck/Gen#map().2?
+( ( &1wikigraph/WikigraphSuite#wikiResultGen().(errGen)2
+(+( .local62&
+(6( 6scala/util/Left.apply().2!
+(2( 6scala/package.Left.2
+(7( =local52
+)) local32
+,, local72'
+,, org/scalacheck/Gen#map().2
+,, local22
+, , "local82+
+,0, 0wikigraph/WikiResult.apply().2#
+,&, 0wikigraph/WikiResult.23
+,8, B%scala/concurrent/Future.successful().2&
+,1, 7scala/concurrent/Future.2
+,C, Elocal82(
+-- scala/Boolean#`unary_!`().2D
+-- 6wikigraph/WikigraphSuite#wikiResultGen().(withFailure)2
+--  local72+
+. . 'org/scalacheck/Gen#flatMap().2+
+.. org/scalacheck/Gen.oneOf(+2).2!
+.	. org/scalacheck/Gen.2
+.*. 2local92
+// local92'
+/*/ -org/scalacheck/Gen#map().28
+// )*wikigraph/WikigraphSuite#wikiExceptionGen.2
+/./ 1local102+
+/?/ ?wikigraph/WikiResult.apply().2#
+/5/ ?wikigraph/WikiResult.2/
+/G/ M!scala/concurrent/Future.failed().2&
+/@/ Fscala/concurrent/Future.2
+/N/ Qlocal102
+00 local722
+33 
+$wikigraph/WikigraphSuite#property().2
+44 local1127
+44 )wikigraph/WikigraphSuite#wikiResultGen().2
+44  
+scala/Int#26
+4/4 /(wikigraph/WikigraphSuite#artNotFoundGen.25
+4/4 /'wikigraph/WikigraphSuite#given_Gen_Int.2
+55 local1227
+55 )wikigraph/WikigraphSuite#wikiResultGen().2"
+55 #scala/Predef.String#26
+525 2(wikigraph/WikigraphSuite#artNotFoundGen.28
+525 2*wikigraph/WikigraphSuite#given_Gen_String.2
+66 local132+
+66 org/scalacheck/Gen#flatMap().2
+66 local112
+66 local142'
+6'6 *org/scalacheck/Gen#map().2
+6"6 &local122
+6+6 ,local152-
+626 4scala/Predef.ArrowAssoc#`->`().2(
+606 0scala/Predef.ArrowAssoc().2
+606 1local142
+656 6local152+
+77 
+org/scalacheck/Prop.forAll().2
+77 local132
+77 local172#
+77 "wikigraph/WikiResult#2
+7#7 &
+scala/Int#2
+7'7 'scala/Tuple2#_1.2
+7)7 *local182#
+7,7 6wikigraph/WikiResult#2"
+777 =scala/Predef.String#2
+7>7 >scala/Tuple2#_2.2
+8
+8 local192)
+88 wikigraph/WikiResult#zip().2
+88 local172
+88 local182C
+88 5scala/concurrent/ExecutionContext.Implicits.global().2
+9
+9 local202+
+99 wikigraph/WikiResult.apply().2#
+99 wikigraph/WikiResult.20
+9(9 /"scala/concurrent/Future#flatMap().2)
+9"9 'wikigraph/WikiResult#value.2
+9 9 !local172
+909 3local212,
+9?9 Bscala/concurrent/Future#map().2)
+999 >wikigraph/WikiResult#value.2
+979 8local182
+9C9 Flocal222*
+9N9 Uscala/util/Either#flatMap().2
+9J9 Mlocal212
+9V9 Wlocal232&
+9_9 bscala/util/Either#map().2
+9[9 ^local222
+9c9 dlocal242-
+9j9 lscala/Predef.ArrowAssoc#`->`().2(
+9h9 hscala/Predef.ArrowAssoc().2
+9h9 ilocal232
+9m9 nlocal242C
+9q9 q5scala/concurrent/ExecutionContext.Implicits.global().2C
+9r9 r5scala/concurrent/ExecutionContext.Implicits.global().2@
+;; 2wikigraph/testing/Tools$package.blockAndCompare().2
+;; local192
+; ; (local2020
+<< "org/scalacheck/Prop.propBoolean().2
+<< local2523
+<< %org/scalacheck/Shrink.shrinkTuple2().2;
+<< -org/scalacheck/ShrinkLowPriority#shrinkAny().25
+<< 'org/scalacheck/util/Pretty.prettyAny().2
+<< local262B
+== 4munit/internal/MacroCompat.LocationMacro#generate().22
+?? 
+$wikigraph/WikigraphSuite#property().2
+@@ local2727
+@@ )wikigraph/WikigraphSuite#wikiResultGen().2
+@@  
+scala/Int#26
+@.@ .(wikigraph/WikigraphSuite#artNotFoundGen.25
+@.@ .'wikigraph/WikigraphSuite#given_Gen_Int.2
+AA local2827
+AA )wikigraph/WikigraphSuite#wikiResultGen().2"
+AA #scala/Predef.String#26
+A1A 1(wikigraph/WikigraphSuite#artNotFoundGen.28
+A1A 1*wikigraph/WikigraphSuite#given_Gen_String.2
+BB local292+
+BB org/scalacheck/Gen#flatMap().2
+BB local272
+BB local302'
+B'B *org/scalacheck/Gen#map().2
+B"B &local282
+B+B ,local312-
+B2B 4scala/Predef.ArrowAssoc#`->`().2(
+B0B 0scala/Predef.ArrowAssoc().2
+B0B 1local302
+B5B 6local312+
+DD 
+org/scalacheck/Prop.forAll().2
+DD local292
+DD local332#
+DD "wikigraph/WikiResult#2
+D#D &
+scala/Int#2
+D'D 'scala/Tuple2#_1.2
+D)D *local342#
+D,D 6wikigraph/WikiResult#2"
+D7D =scala/Predef.String#2
+D>D >scala/Tuple2#_2.2
+E
+E local352)
+EE wikigraph/WikiResult#zip().2
+EE local332
+EE local342C
+EE 5scala/concurrent/ExecutionContext.Implicits.global().2
+G
+G local362 
+GG scala/package.Seq#2)
+GG wikigraph/errors/WikiError#22
+G*G ,$scala/collection/IterableOps#`++`().27
+G#G ))wikigraph/testing/Tools$package.errors().2
+G!G "local332C
+G)G )5scala/concurrent/ExecutionContext.Implicits.global().27
+G/G 5)wikigraph/testing/Tools$package.errors().2
+G-G .local342C
+G5G 55scala/concurrent/ExecutionContext.Implicits.global().2:
+II ,scala/collection/IterableOnceOps#nonEmpty().2
+I	I local362)
+J"J $org/scalacheck/Prop#`:|`().20
+J	J 	"org/scalacheck/Prop.propBoolean().2
+JJ scala/Any#`==`().2
+J	J local3627
+JJ  )wikigraph/testing/Tools$package.errors().2
+JJ local352C
+J J  5scala/concurrent/ExecutionContext.Implicits.global().2)
+LGL Iorg/scalacheck/Prop#`:|`().20
+L	L 	"org/scalacheck/Prop.propBoolean().2
+L,L .scala/Any#`==`().2#
+L
+L 
+scala/Tuple2.apply().2>
+LL 0wikigraph/testing/Tools$package.extractUnsafe().2
+L
+L local332C
+LL 5scala/concurrent/ExecutionContext.Implicits.global().2>
+LL *0wikigraph/testing/Tools$package.extractUnsafe().2
+LL local342C
+L*L *5scala/concurrent/ExecutionContext.Implicits.global().2>
+L8L E0wikigraph/testing/Tools$package.extractUnsafe().2
+L/L 7local352C
+LEL E5scala/concurrent/ExecutionContext.Implicits.global().2'
+MM scala/Predef.$conforms().23
+MM %org/scalacheck/Shrink.shrinkTuple2().2;
+MM -org/scalacheck/ShrinkLowPriority#shrinkAny().25
+MM 'org/scalacheck/util/Pretty.prettyAny().2
+MM local372B
+NN 4munit/internal/MacroCompat.LocationMacro#generate().22
+PP 
+$wikigraph/WikigraphSuite#property().2
+QQ local3827
+QQ )wikigraph/WikigraphSuite#wikiResultGen().2
+QQ  
+scala/Int#26
+Q-Q -(wikigraph/WikigraphSuite#artNotFoundGen.25
+Q-Q -'wikigraph/WikigraphSuite#given_Gen_Int.2
+RR local3927
+RR )wikigraph/WikigraphSuite#wikiResultGen().2"
+RR #scala/Predef.String#26
+R0R 0(wikigraph/WikigraphSuite#artNotFoundGen.28
+R0R 0*wikigraph/WikigraphSuite#given_Gen_String.2
+SS local402+
+SS org/scalacheck/Gen#flatMap().2
+SS local382
+SS local412'
+S'S *org/scalacheck/Gen#map().2
+S"S &local392
+S+S ,local422-
+S2S 4scala/Predef.ArrowAssoc#`->`().2(
+S0S 0scala/Predef.ArrowAssoc().2
+S0S 1local412
+S5S 6local422+
+UU 
+org/scalacheck/Prop.forAll().2
+UU local402
+UU local442#
+UU "wikigraph/WikiResult#2
+U#U &
+scala/Int#2
+U'U 'scala/Tuple2#_1.2
+U)U *local452#
+U,U 6wikigraph/WikiResult#2"
+U7U =scala/Predef.String#2
+U>U >scala/Tuple2#_2.2
+V
+V local462)
+VV wikigraph/WikiResult#zip().2
+VV local442
+VV local452C
+VV 5scala/concurrent/ExecutionContext.Implicits.global().2#
+XX scala/Boolean#`||`().2&
+XX scala/Option#nonEmpty().28
+XX *wikigraph/testing/Tools$package.failure().2
+X	X 
+local442C
+XX 5scala/concurrent/ExecutionContext.Implicits.global().2&
+X)X 1scala/Option#nonEmpty().28
+X!X (*wikigraph/testing/Tools$package.failure().2
+XX  local452C
+X(X (5scala/concurrent/ExecutionContext.Implicits.global().2)
+Y]Y _org/scalacheck/Prop#`:|`().20
+YY "org/scalacheck/Prop.propBoolean().2A
+YY 3wikigraph/testing/Tools$package.sameErrorMessage().28
+YBY I*wikigraph/testing/Tools$package.failure().2!
+Y>Y Ascala/Option#get().25
+Y$Y ('scala/collection/immutable/List#find().27
+YY )scala/collection/IterableFactory#apply().2!
+YY scala/package.List.2
+YY local442
+Y!Y "local452'
+Y3Y <scala/Option#isDefined().28
+Y+Y 2*wikigraph/testing/Tools$package.failure().2C
+Y2Y 25scala/concurrent/ExecutionContext.Implicits.global().2C
+YIY I5scala/concurrent/ExecutionContext.Implicits.global().28
+YTY [*wikigraph/testing/Tools$package.failure().2
+YKY Slocal462C
+Y[Y [5scala/concurrent/ExecutionContext.Implicits.global().2
+[[ local472 
+[[ scala/package.Seq#2)
+[[ wikigraph/errors/WikiError#22
+[,[ .$scala/collection/IterableOps#`++`().27
+[%[ +)wikigraph/testing/Tools$package.errors().2
+[#[ $local442C
+[+[ +5scala/concurrent/ExecutionContext.Implicits.global().27
+[1[ 7)wikigraph/testing/Tools$package.errors().2
+[/[ 0local452C
+[7[ 75scala/concurrent/ExecutionContext.Implicits.global().2:
+\\ ,scala/collection/IterableOnceOps#nonEmpty().2
+\\ local472)
+]$] &org/scalacheck/Prop#`:|`().20
+]] "org/scalacheck/Prop.propBoolean().2
+]] scala/Any#`==`().2
+]] local4727
+]] ")wikigraph/testing/Tools$package.errors().2
+]] local462C
+]"] "5scala/concurrent/ExecutionContext.Implicits.global().2)
+_I_ Korg/scalacheck/Prop#`:|`().20
+__ "org/scalacheck/Prop.propBoolean().2
+_._ 0scala/Any#`==`().2#
+__ scala/Tuple2.apply().2>
+__ 0wikigraph/testing/Tools$package.extractUnsafe().2
+__ local442C
+__ 5scala/concurrent/ExecutionContext.Implicits.global().2>
+__ ,0wikigraph/testing/Tools$package.extractUnsafe().2
+__ local452C
+_,_ ,5scala/concurrent/ExecutionContext.Implicits.global().2>
+_:_ G0wikigraph/testing/Tools$package.extractUnsafe().2
+_1_ 9local462C
+_G_ G5scala/concurrent/ExecutionContext.Implicits.global().2'
+`` scala/Predef.$conforms().23
+`` %org/scalacheck/Shrink.shrinkTuple2().2;
+`` -org/scalacheck/ShrinkLowPriority#shrinkAny().25
+`` 'org/scalacheck/util/Pretty.prettyAny().2
+`` local482B
+aa 4munit/internal/MacroCompat.LocationMacro#generate().22
+cc 
+$wikigraph/WikigraphSuite#property().2+
+dd 
+org/scalacheck/Prop.forAll().2/
+dd !org/scalacheck/Gen.containerOf().2!
+dd org/scalacheck/Gen.2!
+dd scala/package.List#2
+d!d $
+scala/Int#2$
+d&d ,scala/Predef.summon().2!
+d-d 0org/scalacheck/Gen#2
+d1d 4
+scala/Int#25
+d6d 6'wikigraph/WikigraphSuite#given_Gen_Int.2N
+d7d 7@org/scalacheck/util/BuildableVersionSpecific#buildableFactory().2A
+d7d 73scala/collection/IterableFactory#iterableFactory().2'
+d7d 7scala/Predef.$conforms().2
+d;d =local492
+e
+e local502
+ee 
+scala/Int#2"
+ee scala/Predef.String#2
+e"e #local512#
+e0e 8scala/Any#toString().2 
+e*e +scala/Int#`+`(+4).2
+e(e )local512
+f
+f local522
+ff 
+scala/Int#2#
+ff &wikigraph/WikiResult#2"
+f'f -scala/Predef.String#2
+f2f 3local5320
+fBf L"wikigraph/WikiResult.successful().2#
+f7f Awikigraph/WikiResult.2&
+fQf Qscala/Function1#apply().2
+fMf Qlocal502
+fRf Slocal532
+h
+h local542#
+hh wikigraph/WikiResult#2 
+hh "scala/package.Seq#2"
+h#h )scala/Predef.String#2.
+h9h A wikigraph/WikiResult.traverse().2#
+h.h 8wikigraph/WikiResult.2
+hBh Dlocal492
+hFh Nlocal522C
+hOh O5scala/concurrent/ExecutionContext.Implicits.global().2
+i
+i local552#
+ii wikigraph/WikiResult#2 
+ii "scala/package.Seq#2"
+i#i )scala/Predef.String#20
+i9i C"wikigraph/WikiResult.successful().2#
+i.i 8wikigraph/WikiResult.24
+iGi J&scala/collection/immutable/List#map().2
+iDi Flocal492
+iKi Olocal502@
+kk 2wikigraph/testing/Tools$package.blockAndCompare().2
+kk local552
+k k (local5420
+ll "org/scalacheck/Prop.propBoolean().2
+ll local5626
+ll (org/scalacheck/Shrink.shrinkContainer().2'
+ll scala/Predef.$conforms().25
+ll 'org/scalacheck/Shrink.shrinkIntegral().2/
+ll !scala/math/Numeric.IntIsIntegral.2N
+ll @org/scalacheck/util/BuildableVersionSpecific#buildableFactory().2A
+ll 3scala/collection/IterableFactory#iterableFactory().26
+ll (org/scalacheck/util/Pretty.prettyList().2
+ll local572B
+mm 4munit/internal/MacroCompat.LocationMacro#generate().22
+oo 
+$wikigraph/WikigraphSuite#property().2+
+pp 
+org/scalacheck/Prop.forAll().2/
+pp !org/scalacheck/Gen.containerOf().2!
+pp org/scalacheck/Gen.2!
+pp scala/package.List#2#
+p!p +wikigraph/WikiResult#2
+p,p /
+scala/Int#27
+p2p ?)wikigraph/WikigraphSuite#wikiResultGen().2
+p@p C
+scala/Int#26
+pQp Q(wikigraph/WikigraphSuite#artNotFoundGen.25
+pQp Q'wikigraph/WikigraphSuite#given_Gen_Int.2N
+pRp R@org/scalacheck/util/BuildableVersionSpecific#buildableFactory().2A
+pRp R3scala/collection/IterableFactory#iterableFactory().2'
+pRp Rscala/Predef.$conforms().2
+pVp clocal582
+q
+q local592
+qq 
+scala/Int#2"
+qq scala/Predef.String#2
+q"q #local602#
+q0q 8scala/Any#toString().2 
+q*q +scala/Int#`+`(+4).2
+q(q )local602
+s
+s local612#
+ss wikigraph/WikiResult#2 
+ss "scala/package.Seq#2"
+s#s )scala/Predef.String#2.
+s9s A wikigraph/WikiResult.traverse().2#
+s.s 8wikigraph/WikiResult.2
+sBs Olocal582)
+sSs Vwikigraph/WikiResult#map().2
+sWs [local592C
+s\s \5scala/concurrent/ExecutionContext.Implicits.global().2C
+s]s ]5scala/concurrent/ExecutionContext.Implicits.global().27
+uu )scala/collection/immutable/List#forall().2
+u	u local5820
+u'u ."scala/collection/SeqOps#isEmpty().27
+u u &)wikigraph/testing/Tools$package.errors().2C
+u&u &5scala/concurrent/ExecutionContext.Implicits.global().2
+vv local622 
+vv scala/package.Seq#2"
+vv  scala/Predef.String#24
+vGv J&scala/collection/immutable/List#map().24
+v2v 5&scala/collection/immutable/List#map().2
+v$v 1local582>
+v8v E0wikigraph/testing/Tools$package.extractUnsafe().2C
+vEv E5scala/concurrent/ExecutionContext.Implicits.global().2
+vKv Olocal592)
+wCw Eorg/scalacheck/Prop#`:|`().20
+ww "org/scalacheck/Prop.propBoolean().2@
+ww 2wikigraph/testing/Tools$package.blockAndCompare().20
+w#w -"wikigraph/WikiResult.successful().2#
+ww "wikigraph/WikiResult.2
+w.w 6local622
+w9w Alocal612
+yy local6328
+y+y 2*scala/collection/immutable/List#flatMap().2
+yy *local5827
+y5y ;)wikigraph/testing/Tools$package.errors().2C
+y;y ;5scala/concurrent/ExecutionContext.Implicits.global().2
+zz local642+
+z'z 'wikigraph/WikiResult.apply().2#
+zz 'wikigraph/WikiResult.23
+z/z 9%scala/concurrent/Future.successful().2&
+z(z .scala/concurrent/Future.2&
+z>z >scala/util/Left.apply().2!
+z:z >scala/package.Left.2 
+z?z Bscala/package.Seq#2)
+zCz Lwikigraph/errors/WikiError#2 
+zOz Rscala/package.Seq#2"
+zSz Yscala/Predef.String#2
+z\z jlocal632)
+{2{ 4org/scalacheck/Prop#`:|`().20
+{{ "org/scalacheck/Prop.propBoolean().2@
+{{ 2wikigraph/testing/Tools$package.blockAndCompare().2
+{{ &local642
+{({ 0local612'
+|| scala/Predef.$conforms().26
+|| (org/scalacheck/Shrink.shrinkContainer().2;
+|| -org/scalacheck/ShrinkLowPriority#shrinkAny().2N
+|| @org/scalacheck/util/BuildableVersionSpecific#buildableFactory().2A
+|| 3scala/collection/IterableFactory#iterableFactory().26
+|| (org/scalacheck/util/Pretty.prettyList().2
+|| local652B
+}} 4munit/internal/MacroCompat.LocationMacro#generate().22
+ 
+$wikigraph/WikigraphSuite#property().2-
+
+ÄÄ 
+org/scalacheck/Prop.forAll().21
+
+ÄÄ !org/scalacheck/Gen.containerOf().2#
+
+ÄÄ org/scalacheck/Gen.2#
+
+ÄÄ scala/package.List#2%
+
+Ä!Ä +wikigraph/WikiResult#2
+
+Ä,Ä /
+scala/Int#29
+
+Ä2Ä ?)wikigraph/WikigraphSuite#wikiResultGen().2
+
+Ä@Ä C
+scala/Int#28
+
+ÄPÄ P(wikigraph/WikigraphSuite#artNotFoundGen.27
+
+ÄPÄ P'wikigraph/WikigraphSuite#given_Gen_Int.2P
+
+ÄQÄ Q@org/scalacheck/util/BuildableVersionSpecific#buildableFactory().2C
+
+ÄQÄ Q3scala/collection/IterableFactory#iterableFactory().2)
+
+ÄQÄ Qscala/Predef.$conforms().2
+
+ÄUÄ blocal662
+
+Å
+Å local672
+
+ÅÅ 
+scala/Int#2$
+
+ÅÅ scala/Predef.String#2
+
+Å"Å #local682%
+
+Å0Å 8scala/Any#toString().2"
+
+Å*Å +scala/Int#`+`(+4).2
+
+Å(Å )local682
+
+É
+É local692%
+
+ÉÉ wikigraph/WikiResult#2"
+
+ÉÉ "scala/package.Seq#2$
+
+É#É )scala/Predef.String#20
+
+É9É A wikigraph/WikiResult.traverse().2%
+
+É.É 8wikigraph/WikiResult.2
+
+ÉBÉ Olocal662+
+
+ÉSÉ Vwikigraph/WikiResult#map().2
+
+ÉWÉ [local672E
+
+É\É \5scala/concurrent/ExecutionContext.Implicits.global().2E
+
+É]É ]5scala/concurrent/ExecutionContext.Implicits.global().29
+
+ÖÖ )scala/collection/immutable/List#exists().2
+
+Ö	Ö local662(
+
+Ö(Ö 0scala/Option#nonEmpty().2:
+
+Ö Ö '*wikigraph/testing/Tools$package.failure().2E
+
+Ö'Ö '5scala/concurrent/ExecutionContext.Implicits.global().2
+
+ÜÜ local702#
+
+ÜPÜ Sscala/Option#get().2'
+
+Ü=Ü Dscala/Option#flatMap().27
+
+Ü$Ü ('scala/collection/immutable/List#find().2
+
+ÜÜ #local662(
+
+Ü3Ü ;scala/Option#nonEmpty().2:
+
+Ü+Ü 2*wikigraph/testing/Tools$package.failure().2E
+
+Ü2Ü 25scala/concurrent/ExecutionContext.Implicits.global().2:
+
+ÜGÜ N*wikigraph/testing/Tools$package.failure().2E
+
+ÜNÜ N5scala/concurrent/ExecutionContext.Implicits.global().2
+
+áá local7125
+
+á(á 5%wikigraph/WikiResult.systemFailure().2%
+
+áá 'wikigraph/WikiResult.2"
+
+á6á 9scala/package.Seq#2$
+
+á:á @scala/Predef.String#2)
+
+áKá Wscala/Any#asInstanceOf().2
+
+áCá Jlocal702/
+
+áXá ewikigraph/errors/WikiException#2+
+
+à2à 4org/scalacheck/Prop#`:|`().22
+
+àà "org/scalacheck/Prop.propBoolean().2B
+
+àà 2wikigraph/testing/Tools$package.blockAndCompare().2
+
+àà &local712
+
+à(à 0local6929
+
+ââ ")scala/collection/immutable/List#exists().2
+
+ââ local662<
+
+â,â 4,scala/collection/IterableOnceOps#nonEmpty().29
+
+â%â +)wikigraph/testing/Tools$package.errors().2E
+
+â+â +5scala/concurrent/ExecutionContext.Implicits.global().2
+
+ää local722:
+
+ä#ä **scala/collection/immutable/List#flatMap().2
+
+ää "local6629
+
+ä-ä 3)wikigraph/testing/Tools$package.errors().2E
+
+ä3ä 35scala/concurrent/ExecutionContext.Implicits.global().2
+
+ãã local732-
+
+ã'ã 'wikigraph/WikiResult.apply().2%
+
+ãã 'wikigraph/WikiResult.25
+
+ã/ã 9%scala/concurrent/Future.successful().2(
+
+ã(ã .scala/concurrent/Future.2(
+
+ã>ã >scala/util/Left.apply().2#
+
+ã:ã >scala/package.Left.2"
+
+ã?ã Bscala/package.Seq#2+
+
+ãCã Lwikigraph/errors/WikiError#2"
+
+ãOã Rscala/package.Seq#2$
+
+ãSã Yscala/Predef.String#2
+
+ã\ã blocal722+
+
+å2å 4org/scalacheck/Prop#`:|`().22
+
+åå "org/scalacheck/Prop.propBoolean().2B
+
+åå 2wikigraph/testing/Tools$package.blockAndCompare().2
+
+åå &local732
+
+å(å 0local692
+
+éé local7426
+
+éAé D&scala/collection/immutable/List#map().26
+
+é,é /&scala/collection/immutable/List#map().2
+
+éé +local662@
+
+é2é ?0wikigraph/testing/Tools$package.extractUnsafe().2E
+
+é?é ?5scala/concurrent/ExecutionContext.Implicits.global().2
+
+éEé Ilocal672+
+
+è;è =org/scalacheck/Prop#`:|`().22
+
+è	è 	"org/scalacheck/Prop.propBoolean().2!
+
+è'è )scala/Any#`==`().2:
+
+è è &*scala/collection/IterableOnceOps#toList().2@
+
+èè 0wikigraph/testing/Tools$package.extractUnsafe().2
+
+è	è local692E
+
+èè 5scala/concurrent/ExecutionContext.Implicits.global().2
+
+è*è 9local742)
+
+êê scala/Predef.$conforms().28
+
+êê (org/scalacheck/Shrink.shrinkContainer().2=
+
+êê -org/scalacheck/ShrinkLowPriority#shrinkAny().2P
+
+êê @org/scalacheck/util/BuildableVersionSpecific#buildableFactory().2C
+
+êê 3scala/collection/IterableFactory#iterableFactory().28
+
+êê (org/scalacheck/util/Pretty.prettyList().2
+
+êê local752D
+
+ëë 4munit/internal/MacroCompat.LocationMacro#generate().24
+
+ìì 
+$wikigraph/WikigraphSuite#property().2-
+
+îî 
+org/scalacheck/Prop.forAll().29
+
+îî )wikigraph/WikigraphSuite#wikiResultGen().2
+
+îî 
+scala/Int#28
+
+î)î )(wikigraph/WikigraphSuite#artNotFoundGen.27
+
+î)î )'wikigraph/WikigraphSuite#given_Gen_Int.2
+
+î.î /local762%
+
+î1î ;wikigraph/WikiResult#2
+
+î<î ?
+scala/Int#2
+
+ï
+ï local772+
+
+ï"ï %wikigraph/WikiResult#map().2+
+
+ïï wikigraph/WikiResult#map().2
+
+ïï local762"
+
+ïï scala/Int#`+`(+4).2E
+
+ï!ï !5scala/concurrent/ExecutionContext.Implicits.global().2%
+
+ï(ï 0scala/Any#toString().2E
+
+ï1ï 15scala/concurrent/ExecutionContext.Implicits.global().2(
+
+óó scala/Option#nonEmpty().2:
+
+óó *wikigraph/testing/Tools$package.failure().2
+
+ó	ó 
+local762E
+
+óó 5scala/concurrent/ExecutionContext.Implicits.global().2+
+
+ò6ò 8org/scalacheck/Prop#`:|`().22
+
+òò "org/scalacheck/Prop.propBoolean().2C
+
+òò 3wikigraph/testing/Tools$package.sameErrorMessage().2:
+
+òò "*wikigraph/testing/Tools$package.failure().2
+
+òò local762E
+
+ò"ò "5scala/concurrent/ExecutionContext.Implicits.global().2:
+
+ò-ò 4*wikigraph/testing/Tools$package.failure().2
+
+ò$ò ,local772E
+
+ò4ò 45scala/concurrent/ExecutionContext.Implicits.global().2<
+
+ôô ,scala/collection/IterableOnceOps#nonEmpty().29
+
+ôô )wikigraph/testing/Tools$package.errors().2
+
+ôô local762E
+
+ôô 5scala/concurrent/ExecutionContext.Implicits.global().2+
+
+ö&ö (org/scalacheck/Prop#`:|`().22
+
+ö	ö 	"org/scalacheck/Prop.propBoolean().2!
+
+öö scala/Any#`==`().29
+
+öö )wikigraph/testing/Tools$package.errors().2
+
+ö	ö 
+local762E
+
+öö 5scala/concurrent/ExecutionContext.Implicits.global().29
+
+öö $)wikigraph/testing/Tools$package.errors().2
+
+öö local772E
+
+ö$ö $5scala/concurrent/ExecutionContext.Implicits.global().2+
+
+úCú Eorg/scalacheck/Prop#`:|`().22
+
+ú	ú 	"org/scalacheck/Prop.propBoolean().2!
+
+ú(ú *scala/Any#`==`().2%
+
+úú 'scala/Any#toString().2"
+
+úú scala/Int#`+`(+4).2@
+
+úú 0wikigraph/testing/Tools$package.extractUnsafe().2
+
+ú
+ú local762E
+
+úú 5scala/concurrent/ExecutionContext.Implicits.global().2@
+
+ú4ú A0wikigraph/testing/Tools$package.extractUnsafe().2
+
+ú+ú 3local772E
+
+úAú A5scala/concurrent/ExecutionContext.Implicits.global().2)
+
+ùù scala/Predef.$conforms().2=
+
+ùù -org/scalacheck/ShrinkLowPriority#shrinkAny().27
+
+ùù 'org/scalacheck/util/Pretty.prettyAny().2
+
+ùù local782D
+
+ûû 4munit/internal/MacroCompat.LocationMacro#generate().24
+
+†† 
+$wikigraph/WikigraphSuite#property().2-
+
+°° 
+org/scalacheck/Prop.forAll().29
+
+°° )wikigraph/WikigraphSuite#wikiResultGen().2
+
+°° 
+scala/Int#28
+
+°)° )(wikigraph/WikigraphSuite#artNotFoundGen.27
+
+°)° )'wikigraph/WikigraphSuite#given_Gen_Int.2
+
+°.° /local792%
+
+°1° ;wikigraph/WikiResult#2
+
+°<° ?
+scala/Int#2
+
+¢
+¢ local802
+
+¢¢ local812
+
+¢¢ 
+scala/Int#2%
+
+¢¢ wikigraph/WikiResult#2$
+
+¢ ¢ &scala/Predef.String#2-
+
+¢4¢ 4wikigraph/WikiResult.apply().2%
+
+¢*¢ 4wikigraph/WikiResult.25
+
+¢<¢ F%scala/concurrent/Future.successful().2(
+
+¢5¢ ;scala/concurrent/Future.2)
+
+¢L¢ Lscala/util/Right.apply().2$
+
+¢G¢ Lscala/package.Right.2%
+
+¢U¢ ]scala/Any#toString().2"
+
+¢P¢ Qscala/Int#`+`(+4).2
+
+¢N¢ Olocal812
+
+£
+£ local822/
+
+££ wikigraph/WikiResult#flatMap().2
+
+££ local792
+
+££  local802
+
+££ local832E
+
+£!£ !5scala/concurrent/ExecutionContext.Implicits.global().2(
+
+•• scala/Option#nonEmpty().2:
+
+•• *wikigraph/testing/Tools$package.failure().2
+
+•	• 
+local792E
+
+•• 5scala/concurrent/ExecutionContext.Implicits.global().2+
+
+¶6¶ 8org/scalacheck/Prop#`:|`().22
+
+¶¶ "org/scalacheck/Prop.propBoolean().2C
+
+¶¶ 3wikigraph/testing/Tools$package.sameErrorMessage().2:
+
+¶¶ "*wikigraph/testing/Tools$package.failure().2
+
+¶¶ local792E
+
+¶"¶ "5scala/concurrent/ExecutionContext.Implicits.global().2:
+
+¶-¶ 4*wikigraph/testing/Tools$package.failure().2
+
+¶$¶ ,local822E
+
+¶4¶ 45scala/concurrent/ExecutionContext.Implicits.global().2<
+
+ßß ,scala/collection/IterableOnceOps#nonEmpty().29
+
+ßß )wikigraph/testing/Tools$package.errors().2
+
+ßß local792E
+
+ßß 5scala/concurrent/ExecutionContext.Implicits.global().2+
+
+®&® (org/scalacheck/Prop#`:|`().22
+
+®	® 	"org/scalacheck/Prop.propBoolean().2!
+
+®® scala/Any#`==`().29
+
+®® )wikigraph/testing/Tools$package.errors().2
+
+®	® 
+local792E
+
+®® 5scala/concurrent/ExecutionContext.Implicits.global().29
+
+®® $)wikigraph/testing/Tools$package.errors().2
+
+®® local822E
+
+®$® $5scala/concurrent/ExecutionContext.Implicits.global().2
+
+™™ local8422
+
+™"™ ,"wikigraph/WikiResult.successful().2%
+
+™™ !wikigraph/WikiResult.2%
+
+™C™ Kscala/Any#toString().2"
+
+™>™ ?scala/Int#`+`(+4).2@
+
+™0™ =0wikigraph/testing/Tools$package.extractUnsafe().2
+
+™.™ /local792E
+
+™=™ =5scala/concurrent/ExecutionContext.Implicits.global().2+
+
+´,´ .org/scalacheck/Prop#`:|`().22
+
+´´ "org/scalacheck/Prop.propBoolean().2B
+
+´´ 2wikigraph/testing/Tools$package.blockAndCompare().2
+
+´´  local842
+
+´"´ *local822)
+
+¨¨ scala/Predef.$conforms().2=
+
+¨¨ -org/scalacheck/ShrinkLowPriority#shrinkAny().27
+
+¨¨ 'org/scalacheck/util/Pretty.prettyAny().2
+
+¨¨ local852D
+
+≠≠ 4munit/internal/MacroCompat.LocationMacro#generate().24
+
+ØØ 
+$wikigraph/WikigraphSuite#property().2-
+
+∞∞ 
+org/scalacheck/Prop.forAll().29
+
+∞∞ )wikigraph/WikigraphSuite#wikiResultGen().2
+
+∞∞ 
+scala/Int#28
+
+∞)∞ )(wikigraph/WikigraphSuite#artNotFoundGen.27
+
+∞)∞ )'wikigraph/WikigraphSuite#given_Gen_Int.2
+
+∞.∞ /local862%
+
+∞1∞ ;wikigraph/WikiResult#2
+
+∞<∞ ?
+scala/Int#2
+
+±
+± local872C
+
+±± 3wikigraph/errors/WikiError.ArticleNotFound.apply().2;
+
+±± +wikigraph/errors/WikiError.ArticleNotFound.25
+
+±)± )%wikigraph/Articles.ArticleId.apply().2-
+
+± ± )wikigraph/Articles.ArticleId.2
+
+≤
+≤ local882
+
+≤≤ local892
+
+≤≤ 
+scala/Int#2%
+
+≤≤ wikigraph/WikiResult#2$
+
+≤ ≤ &scala/Predef.String#23
+
+≤5≤ @#wikigraph/WikiResult.domainError().2%
+
+≤*≤ 4wikigraph/WikiResult.2
+
+≤A≤ Dlocal872
+
+≥
+≥ local902/
+
+≥≥ wikigraph/WikiResult#flatMap().2
+
+≥≥ local862
+
+≥≥  local882
+
+≥≥ local912E
+
+≥!≥ !5scala/concurrent/ExecutionContext.Implicits.global().2(
+
+µµ scala/Option#nonEmpty().2:
+
+µµ *wikigraph/testing/Tools$package.failure().2
+
+µ	µ 
+local862E
+
+µµ 5scala/concurrent/ExecutionContext.Implicits.global().2+
+
+∂6∂ 8org/scalacheck/Prop#`:|`().22
+
+∂∂ "org/scalacheck/Prop.propBoolean().2C
+
+∂∂ 3wikigraph/testing/Tools$package.sameErrorMessage().2:
+
+∂∂ "*wikigraph/testing/Tools$package.failure().2
+
+∂∂ local862E
+
+∂"∂ "5scala/concurrent/ExecutionContext.Implicits.global().2:
+
+∂-∂ 4*wikigraph/testing/Tools$package.failure().2
+
+∂$∂ ,local902E
+
+∂4∂ 45scala/concurrent/ExecutionContext.Implicits.global().2<
+
+∑∑ ,scala/collection/IterableOnceOps#nonEmpty().29
+
+∑∑ )wikigraph/testing/Tools$package.errors().2
+
+∑∑ local862E
+
+∑∑ 5scala/concurrent/ExecutionContext.Implicits.global().2+
+
+∏&∏ (org/scalacheck/Prop#`:|`().22
+
+∏	∏ 	"org/scalacheck/Prop.propBoolean().2!
+
+∏∏ scala/Any#`==`().29
+
+∏∏ )wikigraph/testing/Tools$package.errors().2
+
+∏	∏ 
+local862E
+
+∏∏ 5scala/concurrent/ExecutionContext.Implicits.global().29
+
+∏∏ $)wikigraph/testing/Tools$package.errors().2
+
+∏∏ local902E
+
+∏$∏ $5scala/concurrent/ExecutionContext.Implicits.global().2+
+
+∫)∫ +org/scalacheck/Prop#`:|`().22
+
+∫∫ "org/scalacheck/Prop.propBoolean().2B
+
+∫∫ 2wikigraph/testing/Tools$package.blockAndCompare().2
+
+∫∫ local882
+
+∫∫ 'local902)
+
+ªª scala/Predef.$conforms().2=
+
+ªª -org/scalacheck/ShrinkLowPriority#shrinkAny().27
+
+ªª 'org/scalacheck/util/Pretty.prettyAny().2
+
+ªª local922D
+
+ºº 4munit/internal/MacroCompat.LocationMacro#generate().24
+
+ææ 
+$wikigraph/WikigraphSuite#property().2-
+
+øø 
+org/scalacheck/Prop.forAll().29
+
+øø )wikigraph/WikigraphSuite#wikiResultGen().2
+
+øø 
+scala/Int#28
+
+ø)ø )(wikigraph/WikigraphSuite#artNotFoundGen.27
+
+ø)ø )'wikigraph/WikigraphSuite#given_Gen_Int.2
+
+ø.ø /local932%
+
+ø1ø ;wikigraph/WikiResult#2
+
+ø<ø ?
+scala/Int#2
+
+¿
+¿ local9427
+
+¿.¿ 5'wikigraph/errors/WikiException.Timeout.2/
+
+¿ ¿ -wikigraph/errors/WikiException.2!
+
+¿¿ wikigraph/errors/2
+
+¿¿ 
+wikigraph/2
+
+¡
+¡ local952
+
+¡¡ local962
+
+¡¡ 
+scala/Int#2%
+
+¡¡ wikigraph/WikiResult#2$
+
+¡ ¡ &scala/Predef.String#25
+
+¡5¡ B%wikigraph/WikiResult.systemFailure().2%
+
+¡*¡ 4wikigraph/WikiResult.2
+
+¡C¡ Elocal942
+
+√
+√ local972/
+
+√√ wikigraph/WikiResult#flatMap().2
+
+√√ local932
+
+√√  local952
+
+√√ local982E
+
+√!√ !5scala/concurrent/ExecutionContext.Implicits.global().2)
+
+≈≈ scala/Option#isDefined().2:
+
+≈≈ *wikigraph/testing/Tools$package.failure().2
+
+≈	≈ 
+local932E
+
+≈≈ 5scala/concurrent/ExecutionContext.Implicits.global().2+
+
+∆6∆ 8org/scalacheck/Prop#`:|`().22
+
+∆∆ "org/scalacheck/Prop.propBoolean().2C
+
+∆∆ 3wikigraph/testing/Tools$package.sameErrorMessage().2:
+
+∆∆ "*wikigraph/testing/Tools$package.failure().2
+
+∆∆ local932E
+
+∆"∆ "5scala/concurrent/ExecutionContext.Implicits.global().2:
+
+∆-∆ 4*wikigraph/testing/Tools$package.failure().2
+
+∆$∆ ,local972E
+
+∆4∆ 45scala/concurrent/ExecutionContext.Implicits.global().2<
+
+«« ,scala/collection/IterableOnceOps#nonEmpty().29
+
+«« )wikigraph/testing/Tools$package.errors().2
+
+«« local932E
+
+«« 5scala/concurrent/ExecutionContext.Implicits.global().2+
+
+»&» (org/scalacheck/Prop#`:|`().22
+
+»	» 	"org/scalacheck/Prop.propBoolean().2!
+
+»» scala/Any#`==`().29
+
+»» )wikigraph/testing/Tools$package.errors().2
+
+»	» 
+local932E
+
+»» 5scala/concurrent/ExecutionContext.Implicits.global().29
+
+»» $)wikigraph/testing/Tools$package.errors().2
+
+»» local972E
+
+»$» $5scala/concurrent/ExecutionContext.Implicits.global().2+
+
+ 5  7org/scalacheck/Prop#`:|`().22
+
+   "org/scalacheck/Prop.propBoolean().2C
+
+   3wikigraph/testing/Tools$package.sameErrorMessage().2:
+
+ "  )*wikigraph/testing/Tools$package.failure().2
+
+   !local972E
+
+ )  )5scala/concurrent/ExecutionContext.Implicits.global().2#
+
+ /  /scala/Some.apply().2
+
+ +  /scala/Some.2
+
+ 0  2local942)
+
+ÀÀ scala/Predef.$conforms().2=
+
+ÀÀ -org/scalacheck/ShrinkLowPriority#shrinkAny().27
+
+ÀÀ 'org/scalacheck/util/Pretty.prettyAny().2
+
+ÀÀ local992D
+
+ÃÃ 4munit/internal/MacroCompat.LocationMacro#generate().2&
+
+ŒŒ munit/FunSuite#test().2
+
+œœ 	local1002!
+
+œœ scala/Predef.Map#2-
+
+œœ wikigraph/Articles.ArticleId#2!
+
+œœ scala/Predef.Set#2-
+
+œœ 'wikigraph/Articles.ArticleId#24
+
+œ/œ /$scala/collection/MapFactory#apply().2!
+
+œ,œ /scala/Predef.Map.2/
+
+–– scala/Predef.ArrowAssoc#`->`().2*
+
+–– scala/Predef.ArrowAssoc().25
+
+–– %wikigraph/Articles.ArticleId.apply().2-
+
+–– wikigraph/Articles.ArticleId.23
+
+– – ##scala/collection/IterableOps#map().29
+
+–– )scala/collection/IterableFactory#apply().2!
+
+–– scala/Predef.Set.25
+
+–-– -%wikigraph/Articles.ArticleId.apply().2-
+
+–$– -wikigraph/Articles.ArticleId.2/
+
+—— scala/Predef.ArrowAssoc#`->`().2*
+
+—— scala/Predef.ArrowAssoc().25
+
+—— %wikigraph/Articles.ArticleId.apply().2-
+
+—— wikigraph/Articles.ArticleId.23
+
+——  #scala/collection/IterableOps#map().29
+
+—— )scala/collection/IterableFactory#apply().2!
+
+—— scala/Predef.Set.25
+
+—*— *%wikigraph/Articles.ArticleId.apply().2-
+
+—!— *wikigraph/Articles.ArticleId.2/
+
+““ scala/Predef.ArrowAssoc#`->`().2*
+
+““ scala/Predef.ArrowAssoc().25
+
+““ %wikigraph/Articles.ArticleId.apply().2-
+
+““ wikigraph/Articles.ArticleId.23
+
+““  #scala/collection/IterableOps#map().29
+
+““ )scala/collection/IterableFactory#apply().2!
+
+““ scala/Predef.Set.25
+
+“*“ *%wikigraph/Articles.ArticleId.apply().2-
+
+“!“ *wikigraph/Articles.ArticleId.2/
+
+”” scala/Predef.ArrowAssoc#`->`().2*
+
+”” scala/Predef.ArrowAssoc().25
+
+”” %wikigraph/Articles.ArticleId.apply().2-
+
+”” wikigraph/Articles.ArticleId.23
+
+””  #scala/collection/IterableOps#map().29
+
+”” )scala/collection/IterableFactory#apply().2!
+
+”” scala/Predef.Set.25
+
+”*” *%wikigraph/Articles.ArticleId.apply().2-
+
+”!” *wikigraph/Articles.ArticleId.2
+
+’’ local10129
+
+’%’ 7)wikigraph/Wikigraph#breadthFirstSearch().2/
+
+’’ wikigraph/Wikigraph#`<init>`().2$
+
+’’ wikigraph/Wikigraph#2>
+
+’ ’  .wikigraph/implementations/InMemory#`<init>`().23
+
+’’  #wikigraph/implementations/InMemory#2
+
+’!’ "local10025
+
+’A’ A%wikigraph/Articles.ArticleId.apply().2-
+
+’8’ Awikigraph/Articles.ArticleId.25
+
+’O’ O%wikigraph/Articles.ArticleId.apply().2-
+
+’F’ Owikigraph/Articles.ArticleId.2*
+
+◊◊ 
+munit/Assertions#assert().2!
+
+◊◊ scala/Any#`==`().2@
+
+◊◊ 0wikigraph/testing/Tools$package.extractUnsafe().2
+
+◊◊ local1012E
+
+◊◊ 5scala/concurrent/ExecutionContext.Implicits.global().2%
+
+◊&◊ &scala/Option.apply().2
+
+◊ ◊ &scala/Option.2D
+
+◊*◊ *4munit/internal/MacroCompat.LocationMacro#generate().2D
+
+ÿÿ 4munit/internal/MacroCompat.LocationMacro#generate().2&
+
+⁄⁄ munit/FunSuite#test().2
+
+€€ 	local1022!
+
+€€ scala/Predef.Map#2-
+
+€€ wikigraph/Articles.ArticleId#2!
+
+€€ scala/Predef.Set#2-
+
+€€ 'wikigraph/Articles.ArticleId#24
+
+€/€ /$scala/collection/MapFactory#apply().2!
+
+€,€ /scala/Predef.Map.2/
+
+‹‹ scala/Predef.ArrowAssoc#`->`().2*
+
+‹‹ scala/Predef.ArrowAssoc().25
+
+‹‹ %wikigraph/Articles.ArticleId.apply().2-
+
+‹‹ wikigraph/Articles.ArticleId.23
+
+‹ ‹ ##scala/collection/IterableOps#map().29
+
+‹‹ )scala/collection/IterableFactory#apply().2!
+
+‹‹ scala/Predef.Set.25
+
+‹-‹ -%wikigraph/Articles.ArticleId.apply().2-
+
+‹$‹ -wikigraph/Articles.ArticleId.2/
+
+›› scala/Predef.ArrowAssoc#`->`().2*
+
+›› scala/Predef.ArrowAssoc().25
+
+›› %wikigraph/Articles.ArticleId.apply().2-
+
+›› wikigraph/Articles.ArticleId.23
+
+››  #scala/collection/IterableOps#map().29
+
+›› )scala/collection/IterableFactory#apply().2!
+
+›› scala/Predef.Set.25
+
+›*› *%wikigraph/Articles.ArticleId.apply().2-
+
+›!› *wikigraph/Articles.ArticleId.2/
+
+ﬁﬁ scala/Predef.ArrowAssoc#`->`().2*
+
+ﬁﬁ scala/Predef.ArrowAssoc().25
+
+ﬁﬁ %wikigraph/Articles.ArticleId.apply().2-
+
+ﬁﬁ wikigraph/Articles.ArticleId.23
+
+ﬁﬁ  #scala/collection/IterableOps#map().29
+
+ﬁﬁ )scala/collection/IterableFactory#apply().2!
+
+ﬁﬁ scala/Predef.Set.25
+
+ﬁ*ﬁ *%wikigraph/Articles.ArticleId.apply().2-
+
+ﬁ!ﬁ *wikigraph/Articles.ArticleId.2/
+
+ﬂﬂ scala/Predef.ArrowAssoc#`->`().2*
+
+ﬂﬂ scala/Predef.ArrowAssoc().25
+
+ﬂﬂ %wikigraph/Articles.ArticleId.apply().2-
+
+ﬂﬂ wikigraph/Articles.ArticleId.23
+
+ﬂﬂ  #scala/collection/IterableOps#map().29
+
+ﬂﬂ )scala/collection/IterableFactory#apply().2!
+
+ﬂﬂ scala/Predef.Set.25
+
+ﬂ*ﬂ *%wikigraph/Articles.ArticleId.apply().2-
+
+ﬂ!ﬂ *wikigraph/Articles.ArticleId.2/
+
+‡‡ scala/Predef.ArrowAssoc#`->`().2*
+
+‡‡ scala/Predef.ArrowAssoc().25
+
+‡‡ %wikigraph/Articles.ArticleId.apply().2-
+
+‡‡ wikigraph/Articles.ArticleId.23
+
+‡‡  #scala/collection/IterableOps#map().29
+
+‡‡ )scala/collection/IterableFactory#apply().2!
+
+‡‡ scala/Predef.Set.25
+
+‡*‡ *%wikigraph/Articles.ArticleId.apply().2-
+
+‡!‡ *wikigraph/Articles.ArticleId.2
+
+„„ local10329
+
+„%„ 7)wikigraph/Wikigraph#breadthFirstSearch().2/
+
+„„ wikigraph/Wikigraph#`<init>`().2$
+
+„„ wikigraph/Wikigraph#2>
+
+„ „  .wikigraph/implementations/InMemory#`<init>`().23
+
+„„  #wikigraph/implementations/InMemory#2
+
+„!„ "local10225
+
+„A„ A%wikigraph/Articles.ArticleId.apply().2-
+
+„8„ Awikigraph/Articles.ArticleId.25
+
+„O„ O%wikigraph/Articles.ArticleId.apply().2-
+
+„F„ Owikigraph/Articles.ArticleId.2*
+
+ÂÂ 
+munit/Assertions#assert().2!
+
+ÂÂ scala/Any#`==`().2@
+
+ÂÂ 0wikigraph/testing/Tools$package.extractUnsafe().2
+
+ÂÂ local1032E
+
+ÂÂ 5scala/concurrent/ExecutionContext.Implicits.global().2%
+
+Â&Â &scala/Option.apply().2
+
+Â Â &scala/Option.2D
+
+Â*Â *4munit/internal/MacroCompat.LocationMacro#generate().2D
+
+ÊÊ 4munit/internal/MacroCompat.LocationMacro#generate().2&
+
+ËË munit/FunSuite#test().2
+
+ÈÈ 	local1042!
+
+ÈÈ scala/Predef.Map#2-
+
+ÈÈ wikigraph/Articles.ArticleId#2!
+
+ÈÈ scala/Predef.Set#2-
+
+ÈÈ 'wikigraph/Articles.ArticleId#24
+
+È/È /$scala/collection/MapFactory#apply().2!
+
+È,È /scala/Predef.Map.2/
+
+ÍÍ scala/Predef.ArrowAssoc#`->`().2*
+
+ÍÍ scala/Predef.ArrowAssoc().25
+
+ÍÍ %wikigraph/Articles.ArticleId.apply().2-
+
+ÍÍ wikigraph/Articles.ArticleId.23
+
+ÍÍ  #scala/collection/IterableOps#map().29
+
+ÍÍ )scala/collection/IterableFactory#apply().2!
+
+ÍÍ scala/Predef.Set.25
+
+Í*Í *%wikigraph/Articles.ArticleId.apply().2-
+
+Í!Í *wikigraph/Articles.ArticleId.2/
+
+ÎÎ scala/Predef.ArrowAssoc#`->`().2*
+
+ÎÎ scala/Predef.ArrowAssoc().25
+
+ÎÎ %wikigraph/Articles.ArticleId.apply().2-
+
+ÎÎ wikigraph/Articles.ArticleId.23
+
+ÎÎ  #scala/collection/IterableOps#map().29
+
+ÎÎ )scala/collection/IterableFactory#apply().2!
+
+ÎÎ scala/Predef.Set.25
+
+Î*Î *%wikigraph/Articles.ArticleId.apply().2-
+
+Î!Î *wikigraph/Articles.ArticleId.2/
+
+ÏÏ scala/Predef.ArrowAssoc#`->`().2*
+
+ÏÏ scala/Predef.ArrowAssoc().25
+
+ÏÏ %wikigraph/Articles.ArticleId.apply().2-
+
+ÏÏ wikigraph/Articles.ArticleId.23
+
+ÏÏ  #scala/collection/IterableOps#map().29
+
+ÏÏ )scala/collection/IterableFactory#apply().2!
+
+ÏÏ scala/Predef.Set.25
+
+Ï*Ï *%wikigraph/Articles.ArticleId.apply().2-
+
+Ï!Ï *wikigraph/Articles.ArticleId.2/
+
+ÌÌ scala/Predef.ArrowAssoc#`->`().2*
+
+ÌÌ scala/Predef.ArrowAssoc().25
+
+ÌÌ %wikigraph/Articles.ArticleId.apply().2-
+
+ÌÌ wikigraph/Articles.ArticleId.23
+
+ÌÌ  #scala/collection/IterableOps#map().29
+
+ÌÌ )scala/collection/IterableFactory#apply().2!
+
+ÌÌ scala/Predef.Set.25
+
+Ì*Ì *%wikigraph/Articles.ArticleId.apply().2-
+
+Ì!Ì *wikigraph/Articles.ArticleId.2
+
+ÔÔ local10529
+
+Ô%Ô 7)wikigraph/Wikigraph#breadthFirstSearch().2/
+
+ÔÔ wikigraph/Wikigraph#`<init>`().2$
+
+ÔÔ wikigraph/Wikigraph#2>
+
+Ô Ô  .wikigraph/implementations/InMemory#`<init>`().23
+
+ÔÔ  #wikigraph/implementations/InMemory#2
+
+Ô!Ô "local10425
+
+ÔAÔ A%wikigraph/Articles.ArticleId.apply().2-
+
+Ô8Ô Awikigraph/Articles.ArticleId.25
+
+ÔOÔ O%wikigraph/Articles.ArticleId.apply().2-
+
+ÔFÔ Owikigraph/Articles.ArticleId.2*
+
+ÒÒ 
+munit/Assertions#assert().2B
+
+ÒÒ 2wikigraph/testing/Tools$package.blockAndCompare().2
+
+ÒÒ local10522
+
+Ò+Ò 5"wikigraph/WikiResult.successful().2%
+
+Ò Ò *wikigraph/WikiResult.2
+
+Ò6Ò <scala/Option#2
+
+Ò=Ò @
+scala/Int#2
+
+ÒCÒ Gscala/None.2D
+
+ÒJÒ J4munit/internal/MacroCompat.LocationMacro#generate().2D
+
+ÚÚ 4munit/internal/MacroCompat.LocationMacro#generate().2&
+
+ÙÙ munit/FunSuite#test().2
+
+ıı 	local10624
+
+ıı $scala/collection/MapFactory#apply().2!
+
+ıı scala/Predef.Map.2/
+
+ıı scala/Predef.ArrowAssoc#`->`().2*
+
+ıı scala/Predef.ArrowAssoc().25
+
+ıı %wikigraph/Articles.ArticleId.apply().2-
+
+ıı wikigraph/Articles.ArticleId.27
+
+ı$ı )'scala/collection/immutable/Set.empty().2!
+
+ı ı #scala/Predef.Set.2-
+
+ı*ı 3wikigraph/Articles.ArticleId#2
+
+ˆˆ local10729
+
+ˆ%ˆ 7)wikigraph/Wikigraph#breadthFirstSearch().2/
+
+ˆˆ wikigraph/Wikigraph#`<init>`().2$
+
+ˆˆ wikigraph/Wikigraph#2>
+
+ˆ ˆ  .wikigraph/implementations/InMemory#`<init>`().23
+
+ˆˆ  #wikigraph/implementations/InMemory#2
+
+ˆ!ˆ "local10625
+
+ˆAˆ A%wikigraph/Articles.ArticleId.apply().2-
+
+ˆ8ˆ Awikigraph/Articles.ArticleId.25
+
+ˆOˆ O%wikigraph/Articles.ArticleId.apply().2-
+
+ˆFˆ Owikigraph/Articles.ArticleId.2*
+
+˜˜ 
+munit/Assertions#assert().2B
+
+˜˜ 2wikigraph/testing/Tools$package.blockAndCompare().2
+
+˜˜ local10722
+
+˜+˜ 5"wikigraph/WikiResult.successful().2%
+
+˜ ˜ *wikigraph/WikiResult.2
+
+˜6˜ <scala/Option#2
+
+˜=˜ @
+scala/Int#2
+
+˜C˜ Gscala/None.2D
+
+˜J˜ J4munit/internal/MacroCompat.LocationMacro#generate().2D
+
+¯¯ 4munit/internal/MacroCompat.LocationMacro#generate().2&
+
+˙˙ munit/FunSuite#test().2
+
+˚˚ 	local10824
+
+˚˚ $scala/collection/MapFactory#apply().2!
+
+˚˚ scala/Predef.Map.2/
+
+¸¸ scala/Predef.ArrowAssoc#`->`().2*
+
+¸¸ scala/Predef.ArrowAssoc().25
+
+¸¸ %wikigraph/Articles.ArticleId.apply().2-
+
+¸¸ wikigraph/Articles.ArticleId.23
+
+¸¸  #scala/collection/IterableOps#map().29
+
+¸¸ )scala/collection/IterableFactory#apply().2!
+
+¸¸ scala/Predef.Set.25
+
+¸*¸ *%wikigraph/Articles.ArticleId.apply().2-
+
+¸!¸ *wikigraph/Articles.ArticleId.2/
+
+˝˝ scala/Predef.ArrowAssoc#`->`().2*
+
+˝˝ scala/Predef.ArrowAssoc().25
+
+˝˝ %wikigraph/Articles.ArticleId.apply().2-
+
+˝˝ wikigraph/Articles.ArticleId.23
+
+˝˝  #scala/collection/IterableOps#map().29
+
+˝˝ )scala/collection/IterableFactory#apply().2!
+
+˝˝ scala/Predef.Set.25
+
+˝*˝ *%wikigraph/Articles.ArticleId.apply().2-
+
+˝!˝ *wikigraph/Articles.ArticleId.2/
+
+˛˛ scala/Predef.ArrowAssoc#`->`().2*
+
+˛˛ scala/Predef.ArrowAssoc().25
+
+˛˛ %wikigraph/Articles.ArticleId.apply().2-
+
+˛˛ wikigraph/Articles.ArticleId.23
+
+˛˛  #scala/collection/IterableOps#map().29
+
+˛˛ )scala/collection/IterableFactory#apply().2!
+
+˛˛ scala/Predef.Set.25
+
+˛*˛ *%wikigraph/Articles.ArticleId.apply().2-
+
+˛!˛ *wikigraph/Articles.ArticleId.2
+
+ÅÅ local10925
+
+Å%Å 3%wikigraph/Wikigraph#distanceMatrix().2/
+
+ÅÅ wikigraph/Wikigraph#`<init>`().2$
+
+ÅÅ wikigraph/Wikigraph#2>
+
+Å Å  .wikigraph/implementations/InMemory#`<init>`().23
+
+ÅÅ  #wikigraph/implementations/InMemory#2
+
+Å!Å "local10829
+
+Å8Å 8)scala/collection/IterableFactory#apply().2#
+
+Å4Å 8scala/package.List.2
+
+ÇÇ local11022
+
+ÇÇ #"wikigraph/WikiResult.successful().2%
+
+ÇÇ wikigraph/WikiResult.2"
+
+Ç$Ç 'scala/package.Seq#2$
+
+Ç)Ç /scala/Predef.String#2$
+
+Ç1Ç 7scala/Predef.String#2
+
+Ç9Ç ?scala/Option#2
+
+Ç@Ç C
+scala/Int#2=
+
+ÇKÇ K-scala/collection/SeqFactory.Delegate#apply().2"
+
+ÇHÇ Kscala/package.Seq.2%
+
+ÇMÇ Mscala/Tuple3.apply().2%
+
+ÇuÇ uscala/Option.apply().2
+
+ÇoÇ uscala/Option.2%
+
+Ç|Ç |scala/Tuple3.apply().2'
+Ç§Ç §scala/Option.apply().2
+ÇûÇ §scala/Option.2*
+
+ÑÑ 
+munit/Assertions#assert().2B
+
+ÑÑ 2wikigraph/testing/Tools$package.blockAndCompare().2
+
+ÑÑ local1092
+
+Ñ Ñ #local1102D
+
+Ñ%Ñ %4munit/internal/MacroCompat.LocationMacro#generate().2D
+
+ÖÖ 4munit/internal/MacroCompat.LocationMacro#generate().24
+
+áá 
+$wikigraph/WikigraphSuite#property().2
+
+àà local11123
+
+à à ##scala/collection/IterableOps#map().29
+
+àà )scala/collection/IterableFactory#apply().2!
+
+àà scala/Predef.Set.25
+
+à-à -%wikigraph/Articles.ArticleId.apply().2-
+
+à$à -wikigraph/Articles.ArticleId.2
+
+ââ local1122!
+
+ââ scala/Predef.Map#2-
+
+ââ wikigraph/Articles.ArticleId#2!
+
+ââ !scala/Predef.Set#2-
+
+â"â +wikigraph/Articles.ArticleId#24
+
+ä	ä 	$scala/collection/MapFactory#apply().2!
+
+ää 	scala/Predef.Map.2/
+
+ää scala/Predef.ArrowAssoc#`->`().2*
+
+ä
+ä 
+scala/Predef.ArrowAssoc().25
+
+ää %wikigraph/Articles.ArticleId.apply().2-
+
+ä
+ä wikigraph/Articles.ArticleId.2
+
+ää local1112D
+
+å$å >4scala/collection/convert/ImplicitConversionsToScala.2)
+
+åå #scala/collection/convert/2!
+
+åå scala/collection/2
+
+åå scala/2
+
+éé local1132
+
+éé local1142
+
+éé !scala/Boolean#2
+
+é#é .local1152
+
+é0é 7scala/Boolean#2$
+
+é:é >org/scalacheck/Prop#2
+
+ê
+ê local1162#
+
+êê org/scalacheck/Gen#2%
+
+êê 'wikigraph/WikiResult#2!
+
+ê(ê +scala/Predef.Set#2-
+
+ê,ê 5wikigraph/Articles.ArticleId#2
+
+ëë local11723
+
+ë,ë /#scala/collection/IterableOps#map().23
+
+ëë  #scala/collection/IterableOps#map().2
+
+ëë local1112+
+
+ë%ë *org/scalacheck/Gen.const().2#
+
+ë!ë $org/scalacheck/Gen.2
+
+ë!ë !local1182
+
+ë0ë 1local11929
+
+ë5ë B)wikigraph/WikigraphSuite#wikiResultGen().2
+
+ëCë Mlocal1142
+
+ëOë Zlocal1152&
+
+ëbë hscala/Predef.summon().2#
+
+ëië lorg/scalacheck/Gen#2+
+
+ëmë vwikigraph/errors/WikiError#28
+
+ëxë x(wikigraph/WikigraphSuite#artNotFoundGen.2
+
+ëzë {local1192)
+
+íí "org/scalacheck/Gen#map().2.
+
+íí org/scalacheck/Gen.sequence().2#
+
+íí org/scalacheck/Gen.2
+
+íí local1172C
+
+íí 3org/scalacheck/util/Buildable.buildableArrayList().2
+
+í#í &local1202+
+
+íSí Vwikigraph/WikiResult#map().20
+
+í5í = wikigraph/WikiResult.traverse().2%
+
+í*í 4wikigraph/WikiResult.29
+
+íBí G)scala/collection/IterableOnceOps#toSeq().2Q
+
+í>í >Ascala/collection/convert/ToScalaImplicits#`list asScalaBuffer`().2
+
+í>í Alocal1202(
+
+íIí Qscala/Predef.identity().2
+
+íIí Ilocal1212E
+
+íRí R5scala/concurrent/ExecutionContext.Implicits.global().29
+
+íYí ^)scala/collection/IterableOnceOps#toSet().2E
+
+í_í _5scala/concurrent/ExecutionContext.Implicits.global().2
+
+ï
+ï local1222#
+
+ïï org/scalacheck/Gen#2-
+
+ïï %wikigraph/Articles.ArticleId#2%
+
+ï)ï 3wikigraph/WikiResult#2$
+
+ï4ï :scala/Predef.String#2
+
+ññ local1232#
+
+ññ scala/package.List#2-
+
+ññ wikigraph/Articles.ArticleId#2:
+
+ñ)ñ /*scala/collection/IterableOnceOps#toList().2
+
+ñ#ñ (local1112
+
+óó local1242#
+
+óó scala/package.List#2#
+
+óó org/scalacheck/Gen#2-
+
+óó %wikigraph/Articles.ArticleId#2%
+
+ó'ó 1wikigraph/WikiResult#2$
+
+ó2ó 8scala/Predef.String#26
+
+óCó F&scala/collection/immutable/List#map().2
+
+ó?ó Blocal1232
+
+óJó Nlocal1252-
+
+óPó Ywikigraph/Articles.ArticleId#2)
+
+òvò yorg/scalacheck/Gen#map().29
+
+ò
+ò )wikigraph/WikigraphSuite#wikiResultGen().2
+
+òò "local1142
+
+ò$ò /local1152&
+
+ò7ò =scala/Predef.summon().2#
+
+ò>ò Aorg/scalacheck/Gen#2+
+
+òBò Kwikigraph/errors/WikiError#28
+
+òMò M(wikigraph/WikigraphSuite#artNotFoundGen.2+
+
+òSò Xorg/scalacheck/Gen.const().2#
+
+òOò Rorg/scalacheck/Gen.2(
+
+òrò sscala/StringContext#s().2,
+
+ò[ò [scala/StringContext.apply().2)
+
+ònò qwikigraph/Articles.raw().2
+
+òiò mlocal1252
+
+òzò {local12621
+òÑò Üscala/Predef.ArrowAssoc#`->`().2*
+
+òò scala/Predef.ArrowAssoc().2
+òò Élocal1252
+òáò àlocal1262)
+
+öö org/scalacheck/Gen#map().2.
+
+öö org/scalacheck/Gen.sequence().2#
+
+öö org/scalacheck/Gen.2
+
+öö local1242C
+
+öö 3org/scalacheck/util/Buildable.buildableArrayList().2
+
+ö!ö -local1272
+
+õõ local1282-
+
+õõ wikigraph/Articles.ArticleId#27
+
+ú$ú ('scala/collection/immutable/List#find().27
+
+úú 'scala/collection/immutable/List.from().2#
+
+úú scala/package.List.2Q
+
+úú Ascala/collection/convert/ToScalaImplicits#`list asScalaBuffer`().2
+
+úú "local1272!
+
+ú.ú 0scala/Any#`==`().2 
+
+ú+ú -scala/Tuple2#_1.2
+
+ú1ú 4local1282
+
+ùù scala/None.23
+
+ù&ù 1#wikigraph/WikiResult.domainError().2%
+
+ùù %wikigraph/WikiResult.2A
+
+ù?ù ?1wikigraph/errors/WikiError.TitleNotFound.apply().29
+
+ù2ù ?)wikigraph/errors/WikiError.TitleNotFound.2
+
+ù@ù Clocal1282%
+
+ûû scala/Some.unapply().2
+
+ûû scala/Some.2'
+
+ûû scala/Tuple2.unapply().2
+
+ûû local1292
+
+û%û (local1292
+
+¢
+¢ local1302-
+
+§§ org/scalacheck/Gen#flatMap().2
+
+§§ local1162
+
+§
+§ local1312)
+
+•• org/scalacheck/Gen#map().2
+
+•• local1222
+
+•
+• local1322/
+
+¶¶ scala/Predef.ArrowAssoc#`->`().2*
+
+¶¶ scala/Predef.ArrowAssoc().2
+
+¶¶ local1312
+
+¶¶ local1322-
+
+®® org/scalacheck/Prop.forAll().2
+
+®® local1302
+
+®®  local1342 
+
+®® scala/Tuple2#_1.2
+
+®"® #local1352 
+
+®"® "scala/Tuple2#_2.2
+
+™™ local1362$
+
+™™ "wikigraph/Wikipedia#2
+
+´´  local1382
+
+´!´ $local1392-
+
+´&´ /wikigraph/Articles.ArticleId#22
+
+´7´ G"scala/concurrent/ExecutionContext#2
+
+´K´ Plocal1342
+
+¨¨ $local1412
+
+¨%¨ (local1422-
+
+¨*¨ 3wikigraph/Articles.ArticleId#22
+
+¨;¨ K"scala/concurrent/ExecutionContext#2(
+
+¨P¨ Pscala/Function1#apply().2
+
+¨O¨ Plocal1352
+
+¨Q¨ Tlocal1422
+
+≠≠ local1442
+
+≠ ≠ %local1452$
+
+≠'≠ -scala/Predef.String#22
+
+≠5≠ E"scala/concurrent/ExecutionContext#2%
+
+≠I≠ Lscala/Predef.`???`().2
+
+ØØ local1472/
+
+ØØ wikigraph/Wikigraph#`<init>`().2$
+
+ØØ wikigraph/Wikigraph#2
+
+ØØ !local1362
+
+±± local1482%
+
+±± wikigraph/WikiResult#2!
+
+±± "scala/Predef.Set#2$
+
+±#± )scala/Predef.String#21
+
+±1± ;!wikigraph/Wikigraph#namedLinks().2
+
+±.± 0local14724
+
+±G± K$scala/collection/IterableOps#head().2/
+
+±B± Fscala/collection/MapOps#keys().2
+
+±<± Alocal1122%
+
+≥"≥ $scala/Boolean#`||`().2(
+
+≥≥ !scala/Option#nonEmpty().2:
+
+≥≥ *wikigraph/testing/Tools$package.failure().2
+
+≥≥ local1342E
+
+≥≥ 5scala/concurrent/ExecutionContext.Implicits.global().2<
+
+≥2≥ :,scala/collection/IterableOnceOps#nonEmpty().29
+
+≥+≥ 1)wikigraph/testing/Tools$package.errors().2
+
+≥%≥ *local1342E
+
+≥1≥ 15scala/concurrent/ExecutionContext.Implicits.global().2+
+
+∂-∂ /org/scalacheck/Prop#`:|`().22
+
+µµ "org/scalacheck/Prop.propBoolean().2%
+
+µ;µ =scala/Boolean#`||`().2C
+
+µµ 3wikigraph/testing/Tools$package.sameErrorMessage().2:
+
+µ#µ **wikigraph/testing/Tools$package.failure().2
+
+µµ "local1482E
+
+µ*µ *5scala/concurrent/ExecutionContext.Implicits.global().2:
+
+µ2µ 9*wikigraph/testing/Tools$package.failure().2
+
+µ,µ 1local1342E
+
+µ9µ 95scala/concurrent/ExecutionContext.Implicits.global().2!
+
+∂∂ scala/Any#`==`().29
+
+∂∂ )wikigraph/testing/Tools$package.errors().2
+
+∂∂ local1482E
+
+∂∂ 5scala/concurrent/ExecutionContext.Implicits.global().29
+
+∂$∂ *)wikigraph/testing/Tools$package.errors().2
+
+∂∂ #local1342E
+
+∂*∂ *5scala/concurrent/ExecutionContext.Implicits.global().2
+
+ππ local14923
+
+π,π /#scala/collection/IterableOps#map().2@
+
+ππ +0wikigraph/testing/Tools$package.extractUnsafe().2
+
+ππ local1342E
+
+π+π +5scala/concurrent/ExecutionContext.Implicits.global().2
+
+π0π 1local1352
+
+ªª local1502@
+
+ª!ª -0scala/collection/IterableOnceOps#collectFirst().2
+
+ªª  local1492
+
+ª0ª 0local1512
+
+ª5ª 6local1522(
+
+ªDª Lscala/Option#nonEmpty().2:
+
+ª<ª C*wikigraph/testing/Tools$package.failure().2
+
+ª:ª ;local1522E
+
+ªCª C5scala/concurrent/ExecutionContext.Implicits.global().2#
+
+ªZª ]scala/Option#get().2:
+
+ªRª Y*wikigraph/testing/Tools$package.failure().2
+
+ªPª Qlocal1522E
+
+ªYª Y5scala/concurrent/ExecutionContext.Implicits.global().2(
+
+ºº scala/Option#nonEmpty().2
+
+ºº local1502+
+
+Ω7Ω 9org/scalacheck/Prop#`:|`().22
+
+ΩΩ "org/scalacheck/Prop.propBoolean().2C
+
+ΩΩ 3wikigraph/testing/Tools$package.sameErrorMessage().2
+
+ΩΩ %local1502:
+
+Ω.Ω 5*wikigraph/testing/Tools$package.failure().2
+
+Ω'Ω -local1482E
+
+Ω5Ω 55scala/concurrent/ExecutionContext.Implicits.global().2
+
+¿¿ local15327
+
+¿+¿ 2'scala/collection/IterableOps#flatMap().29
+
+¿%¿ *)scala/collection/IterableOnceOps#toSeq().2
+
+¿¿ $local14929
+
+¿5¿ ;)wikigraph/testing/Tools$package.errors().2E
+
+¿;¿ ;5scala/concurrent/ExecutionContext.Implicits.global().2<
+
+¡¡ ",scala/collection/IterableOnceOps#nonEmpty().2
+
+¡¡ local1532+
+
+¬8¬ :org/scalacheck/Prop#`:|`().22
+
+¬¬ "org/scalacheck/Prop.propBoolean().2!
+
+¬#¬ %scala/Any#`==`().29
+
+¬¬ ")scala/collection/IterableOnceOps#toSet().29
+
+¬¬ )wikigraph/testing/Tools$package.errors().2
+
+¬¬ local1482E
+
+¬¬ 5scala/concurrent/ExecutionContext.Implicits.global().29
+
+¬1¬ 6)scala/collection/IterableOnceOps#toSet().2
+
+¬&¬ 0local1532+
+
+ƒEƒ Gorg/scalacheck/Prop#`:|`().22
+
+ƒƒ "org/scalacheck/Prop.propBoolean().2!
+
+ƒ$ƒ &scala/Any#`==`().2@
+
+ƒƒ #0wikigraph/testing/Tools$package.extractUnsafe().2
+
+ƒƒ local1482E
+
+ƒ#ƒ #5scala/concurrent/ExecutionContext.Implicits.global().23
+
+ƒ/ƒ 2#scala/collection/IterableOps#map().2
+
+ƒ'ƒ .local1492@
+
+ƒ5ƒ B0wikigraph/testing/Tools$package.extractUnsafe().2E
+
+ƒBƒ B5scala/concurrent/ExecutionContext.Implicits.global().2)
+
+≈≈ scala/Predef.$conforms().25
+
+≈≈ %org/scalacheck/Shrink.shrinkTuple2().2=
+
+≈≈ -org/scalacheck/ShrinkLowPriority#shrinkAny().27
+
+≈≈ 'org/scalacheck/util/Pretty.prettyAny().2
+
+≈≈ local1542
+
+«« local1552$
+
+«« org/scalacheck/Prop#2+
+
+   org/scalacheck/Prop#`&&`().2+
+
+…… org/scalacheck/Prop#`&&`().2+
+
+»» org/scalacheck/Prop#`&&`().2
+
+»» local1132
+
+…… local1132
+
+   local1132
+
+ÀÀ local1132
+
+ÃÃ local1552D
+
+ÕÕ 4munit/internal/MacroCompat.LocationMacro#generate().24
+
+œœ $wikigraph/WikigraphSuite#property().2:
+
+œœ *wikigraph/WikigraphSuite#property().(name)2$
+
+œœ scala/Predef.String#2:
+
+œœ !*wikigraph/WikigraphSuite#property().(prop)2$
+
+œ&œ *org/scalacheck/Prop#2
+
+œ8œ @munit/Location#2
+
+œ2œ 7munit/2&
+
+–– munit/FunSuite#test().2:
+
+–	– *wikigraph/WikigraphSuite#property().(name)29
+
+–– )wikigraph/WikigraphSuite#checkProperty().2:
+
+–– !*wikigraph/WikigraphSuite#property().(prop)29
+
+–#– #)wikigraph/WikigraphSuite#property().(x$3)29
+
+““ )wikigraph/WikigraphSuite#checkProperty().2?
+
+““ /wikigraph/WikigraphSuite#checkProperty().(prop)2$
+
+““ org/scalacheck/Prop#2
+
+“!“ %scala/Unit#2
+
+”” local1562.
+
+”%” *org/scalacheck/Test.check(+1).2$
+
+” ” $org/scalacheck/Test.2
+
+”” org/scalacheck/2
+
+”” org/27
+
+”J” Q'org/scalacheck/Test.Parameters.default.2/
+
+”?” Iorg/scalacheck/Test.Parameters.2$
+
+”:” >org/scalacheck/Test.2
+
+”/” 9org/scalacheck/2
+
+”+” .org/2?
+
+”S” W/wikigraph/WikigraphSuite#checkProperty().(prop)2
+
+‘‘ local1572
+
+‘‘ local1582!
+
+‘‘ scala/Predef.Set#2$
+
+‘‘ "scala/Predef.String#2
+
+‘%‘ -local1592$
+
+‘/‘ 5scala/Predef.String#2
+
+‘8‘ ?scala/Nothing#2;
+
+’’ +scala/collection/IterableOnceOps#isEmpty().2
+
+’	’ local15826
+
+’1’ 1&java/lang/AssertionError#`<init>`(+2).2)
+
+’#’ 1java/lang/AssertionError#2
+
+’2’ :local15926
+
+÷÷ &java/lang/AssertionError#`<init>`(+2).2)
+
+÷÷ java/lang/AssertionError#2>
+
+÷'÷ /.scala/collection/IterableOnceOps#mkString(+1).2
+
+÷ ÷ &local15822
+
+◊◊ "org/scalacheck/Test.Result#status.2
+
+◊◊ 
+local1562+
+
+ÿÿ %org/scalacheck/Test.Passed.2$
+
+ÿÿ org/scalacheck/Test.2
+
+ÿÿ org/scalacheck/2
+
+ÿÿ org/2+
+
+ÿ?ÿ Eorg/scalacheck/Test.Proved#2$
+
+ÿ:ÿ >org/scalacheck/Test.2
+
+ÿ/ÿ 9org/scalacheck/2
+
+ÿ+ÿ .org/25
+
+Ÿ%Ÿ %%org/scalacheck/Test.Failed.unapply().2+
+
+ŸŸ %org/scalacheck/Test.Failed.2$
+
+ŸŸ org/scalacheck/Test.2
+
+ŸŸ org/scalacheck/2
+
+ŸŸ org/2
+
+Ÿ)Ÿ /local1602
+
+Ÿ4Ÿ ;local1572
+
+Ÿ<Ÿ Blocal1602<
+
+⁄,⁄ ,,org/scalacheck/Test.PropException.unapply().22
+
+⁄⁄ ,"org/scalacheck/Test.PropException.2$
+
+⁄⁄ org/scalacheck/Test.2
+
+⁄⁄ org/scalacheck/2
+
+⁄⁄ org/2
+
+⁄0⁄ 1local1612$
+
+⁄9⁄ Fmunit/FailException#2
+
+⁄3⁄ 8munit/2
+
+⁄H⁄ Nlocal1622
+
+⁄S⁄ Zlocal1572
+
+⁄[⁄ alocal1622,
+
+⁄e⁄ lmunit/FailException#message.2
+
+⁄c⁄ dlocal1612<
+
+€,€ ,,org/scalacheck/Test.PropException.unapply().22
+
+€€ ,"org/scalacheck/Test.PropException.2$
+
+€€ org/scalacheck/Test.2
+
+€€ org/scalacheck/2
+
+€€ org/2
+
+€0€ 1local1632
+
+€3€ 9local1642
+
+€>€ Elocal1572
+
+€F€ Llocal1642*
+€Ü€ áscala/StringContext#s().2,
+
+€P€ Pscala/StringContext.apply().2
+€Ö€ Ülocal1632.
+
+‹‹ (org/scalacheck/Test.Exhausted.2$
+
+‹‹ org/scalacheck/Test.2
+
+‹‹ org/scalacheck/2
+
+‹‹ org/2
+
+‹,‹ 3local15727
+
+‹8‹ ='scala/collection/immutable/Set.empty().2!
+
+‹4‹ 7scala/Predef.Set.PZ 5943F097A3D9AD60E583D91012328432

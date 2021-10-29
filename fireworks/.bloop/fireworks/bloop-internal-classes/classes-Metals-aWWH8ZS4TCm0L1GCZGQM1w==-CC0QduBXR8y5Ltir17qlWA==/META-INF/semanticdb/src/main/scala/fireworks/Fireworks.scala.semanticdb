@@ -1,0 +1,857 @@
+
+“≈(src/main/scala/fireworks/Fireworks.scala*&
+fireworks/Firework# *FireworkÄ*0
+fireworks/Firework#`<init>`(). Ä@*<init>Ä*&
+fireworks/Firework.
+ *FireworkÄ*'
+fireworks/Firework.init().*initÄ*'
+fireworks/Firework.next().*nextÄ*5
+$fireworks/Firework.next().(firework)*fireworkÄ*
+local0 Ä*waitingÄ*
+local1 Ä*launchedÄ*
+local2 Ä*	explodingÄ*%
+fireworks/Waiting# Ä*WaitingÄ*/
+fireworks/Waiting#`<init>`(). Ä@*<init>Ä*=
+(fireworks/Waiting#`<init>`().(countDown) Ä*	countDownÄ*E
+,fireworks/Waiting#`<init>`().(startPosition) Ä*startPositionÄ*M
+0fireworks/Waiting#`<init>`().(numberOfParticles) Ä*numberOfParticlesÄ*G
+-fireworks/Waiting#`<init>`().(particlesColor) Ä*particlesColorÄ*1
+fireworks/Waiting#countDown. Ä*	countDownÄ*9
+ fireworks/Waiting#startPosition. Ä*startPositionÄ*A
+$fireworks/Waiting#numberOfParticles. Ä*numberOfParticlesÄ*;
+!fireworks/Waiting#particlesColor. Ä*particlesColorÄ*&
+fireworks/Waiting#next().*nextÄ*&
+fireworks/Waiting#copy().*copyÄ*6
+$fireworks/Waiting#copy().(countDown)*	countDownÄ*>
+(fireworks/Waiting#copy().(startPosition)*startPositionÄ*F
+,fireworks/Waiting#copy().(numberOfParticles)*numberOfParticlesÄ*@
+)fireworks/Waiting#copy().(particlesColor)*particlesColorÄ*:
+#fireworks/Waiting#copy$default$1().*copy$default$1Ä*:
+#fireworks/Waiting#copy$default$2().*copy$default$2Ä*:
+#fireworks/Waiting#copy$default$3().*copy$default$3Ä*:
+#fireworks/Waiting#copy$default$4().*copy$default$4Ä*"
+fireworks/Waiting#_1().*_1Ä*"
+fireworks/Waiting#_2().*_2Ä*"
+fireworks/Waiting#_3().*_3Ä*"
+fireworks/Waiting#_4().*_4Ä*$
+fireworks/Waiting.
+ *WaitingÄ*(
+fireworks/Waiting.apply().*applyÄ*7
+%fireworks/Waiting.apply().(countDown)*	countDownÄ*?
+)fireworks/Waiting.apply().(startPosition)*startPositionÄ*G
+-fireworks/Waiting.apply().(numberOfParticles)*numberOfParticlesÄ*A
+*fireworks/Waiting.apply().(particlesColor)*particlesColorÄ*,
+fireworks/Waiting.unapply().*unapplyÄ*-
+!fireworks/Waiting.unapply().(x$1)*x$1Ä*.
+fireworks/Waiting.toString().*toStringÄ*&
+fireworks/Waiting.init().*initÄ*
+local3 Ä*colorÄ*#
+local4 Ä*numberOfParticlesÄ*
+local5 Ä*positionÄ*
+local6 Ä*	countDownÄ*'
+fireworks/Launched# Ä*LaunchedÄ*0
+fireworks/Launched#`<init>`(). Ä@*<init>Ä*>
+)fireworks/Launched#`<init>`().(countDown) Ä*	countDownÄ*<
+(fireworks/Launched#`<init>`().(position) Ä*positionÄ*>
+)fireworks/Launched#`<init>`().(direction) Ä*	directionÄ*N
+1fireworks/Launched#`<init>`().(numberOfParticles) Ä*numberOfParticlesÄ*H
+.fireworks/Launched#`<init>`().(particlesColor) Ä*particlesColorÄ*2
+fireworks/Launched#countDown. Ä*	countDownÄ*0
+fireworks/Launched#position. Ä*positionÄ*2
+fireworks/Launched#direction. Ä*	directionÄ*B
+%fireworks/Launched#numberOfParticles. Ä*numberOfParticlesÄ*<
+"fireworks/Launched#particlesColor. Ä*particlesColorÄ*'
+fireworks/Launched#next().*nextÄ*'
+fireworks/Launched#copy().*copyÄ*7
+%fireworks/Launched#copy().(countDown)*	countDownÄ*5
+$fireworks/Launched#copy().(position)*positionÄ*7
+%fireworks/Launched#copy().(direction)*	directionÄ*G
+-fireworks/Launched#copy().(numberOfParticles)*numberOfParticlesÄ*A
+*fireworks/Launched#copy().(particlesColor)*particlesColorÄ*;
+$fireworks/Launched#copy$default$1().*copy$default$1Ä*;
+$fireworks/Launched#copy$default$2().*copy$default$2Ä*;
+$fireworks/Launched#copy$default$3().*copy$default$3Ä*;
+$fireworks/Launched#copy$default$4().*copy$default$4Ä*;
+$fireworks/Launched#copy$default$5().*copy$default$5Ä*#
+fireworks/Launched#_1().*_1Ä*#
+fireworks/Launched#_2().*_2Ä*#
+fireworks/Launched#_3().*_3Ä*#
+fireworks/Launched#_4().*_4Ä*#
+fireworks/Launched#_5().*_5Ä*&
+fireworks/Launched.
+ *LaunchedÄ*)
+fireworks/Launched.apply().*applyÄ*8
+&fireworks/Launched.apply().(countDown)*	countDownÄ*6
+%fireworks/Launched.apply().(position)*positionÄ*8
+&fireworks/Launched.apply().(direction)*	directionÄ*H
+.fireworks/Launched.apply().(numberOfParticles)*numberOfParticlesÄ*B
++fireworks/Launched.apply().(particlesColor)*particlesColorÄ*-
+fireworks/Launched.unapply().*unapplyÄ*.
+"fireworks/Launched.unapply().(x$1)*x$1Ä*/
+fireworks/Launched.toString().*toStringÄ*'
+fireworks/Launched.init().*initÄ*5
+$fireworks/Launched.init().(position)*positionÄ*G
+-fireworks/Launched.init().(numberOfParticles)*numberOfParticlesÄ*A
+*fireworks/Launched.init().(particlesColor)*particlesColorÄ*
+local7 Ä*	directionÄ*)
+fireworks/Exploding# Ä*	ExplodingÄ*1
+fireworks/Exploding#`<init>`(). Ä@*<init>Ä*?
+*fireworks/Exploding#`<init>`().(countDown) Ä*	countDownÄ*?
+*fireworks/Exploding#`<init>`().(particles) Ä*	particlesÄ*3
+fireworks/Exploding#countDown. Ä*	countDownÄ*3
+fireworks/Exploding#particles. Ä*	particlesÄ*(
+fireworks/Exploding#next().*nextÄ*(
+fireworks/Exploding#copy().*copyÄ*8
+&fireworks/Exploding#copy().(countDown)*	countDownÄ*8
+&fireworks/Exploding#copy().(particles)*	particlesÄ*<
+%fireworks/Exploding#copy$default$1().*copy$default$1Ä*<
+%fireworks/Exploding#copy$default$2().*copy$default$2Ä*$
+fireworks/Exploding#_1().*_1Ä*$
+fireworks/Exploding#_2().*_2Ä*(
+fireworks/Exploding.
+ *	ExplodingÄ**
+fireworks/Exploding.apply().*applyÄ*9
+'fireworks/Exploding.apply().(countDown)*	countDownÄ*9
+'fireworks/Exploding.apply().(particles)*	particlesÄ*.
+fireworks/Exploding.unapply().*unapplyÄ*/
+#fireworks/Exploding.unapply().(x$1)*x$1Ä*0
+fireworks/Exploding.toString().*toStringÄ*(
+fireworks/Exploding.init().*initÄ*H
+.fireworks/Exploding.init().(numberOfParticles)*numberOfParticlesÄ*8
+&fireworks/Exploding.init().(direction)*	directionÄ*6
+%fireworks/Exploding.init().(position)*positionÄ*0
+"fireworks/Exploding.init().(color)*colorÄ*
+local8 Ä*	particlesÄ*
+fireworks/Done.
+ à*DoneÄ*'
+fireworks/Particle# Ä*ParticleÄ*0
+fireworks/Particle#`<init>`(). Ä@*<init>Ä*J
+/fireworks/Particle#`<init>`().(horizontalSpeed) Ä*horizontalSpeedÄ*F
+-fireworks/Particle#`<init>`().(verticalSpeed) Ä*verticalSpeedÄ*<
+(fireworks/Particle#`<init>`().(position) Ä*positionÄ*6
+%fireworks/Particle#`<init>`().(color) Ä*colorÄ*>
+#fireworks/Particle#horizontalSpeed. Ä*horizontalSpeedÄ*:
+!fireworks/Particle#verticalSpeed. Ä*verticalSpeedÄ*0
+fireworks/Particle#position. Ä*positionÄ**
+fireworks/Particle#color. Ä*colorÄ*'
+fireworks/Particle#next().*nextÄ*(
+local9 Ä*updatedHorizontalSpeedÄ*'
+local10 Ä*updatedVerticalSpeedÄ*"
+local11 Ä*updatedPositionÄ*'
+fireworks/Particle#copy().*copyÄ*C
++fireworks/Particle#copy().(horizontalSpeed)*horizontalSpeedÄ*?
+)fireworks/Particle#copy().(verticalSpeed)*verticalSpeedÄ*5
+$fireworks/Particle#copy().(position)*positionÄ*/
+!fireworks/Particle#copy().(color)*colorÄ*;
+$fireworks/Particle#copy$default$1().*copy$default$1Ä*;
+$fireworks/Particle#copy$default$2().*copy$default$2Ä*;
+$fireworks/Particle#copy$default$3().*copy$default$3Ä*;
+$fireworks/Particle#copy$default$4().*copy$default$4Ä*#
+fireworks/Particle#_1().*_1Ä*#
+fireworks/Particle#_2().*_2Ä*#
+fireworks/Particle#_3().*_3Ä*#
+fireworks/Particle#_4().*_4Ä*)
+fireworks/Particles# Ä*	ParticlesÄ*1
+fireworks/Particles#`<init>`(). Ä@*<init>Ä*7
+&fireworks/Particles#`<init>`().(value) Ä*valueÄ*+
+fireworks/Particles#value. Ä*valueÄ*(
+fireworks/Particles#next().*nextÄ*
+local12*particleÄ*(
+fireworks/Particles#copy().*copyÄ*0
+"fireworks/Particles#copy().(value)*valueÄ*<
+%fireworks/Particles#copy$default$1().*copy$default$1Ä*$
+fireworks/Particles#_1().*_1Ä*(
+fireworks/Particles.
+ *	ParticlesÄ**
+fireworks/Particles.apply().*applyÄ*1
+#fireworks/Particles.apply().(value)*valueÄ*.
+fireworks/Particles.unapply().*unapplyÄ*/
+#fireworks/Particles.unapply().(x$1)*x$1Ä*0
+fireworks/Particles.toString().*toStringÄ*&
+fireworks/Particle.
+ *ParticleÄ*)
+fireworks/Particle.apply().*applyÄ*D
+,fireworks/Particle.apply().(horizontalSpeed)*horizontalSpeedÄ*@
+*fireworks/Particle.apply().(verticalSpeed)*verticalSpeedÄ*6
+%fireworks/Particle.apply().(position)*positionÄ*0
+"fireworks/Particle.apply().(color)*colorÄ*-
+fireworks/Particle.unapply().*unapplyÄ*.
+"fireworks/Particle.unapply().(x$1)*x$1Ä*/
+fireworks/Particle.toString().*toStringÄ*'
+fireworks/Particle.init().*initÄ*E
+,fireworks/Particle.init().(initialDirection)*initialDirectionÄ*5
+$fireworks/Particle.init().(position)*positionÄ*/
+!fireworks/Particle.init().(color)*colorÄ*
+local13 Ä*angleÄ*
+local14 Ä*velocityÄ*"
+fireworks/Motion.
+ *MotionÄ*/
+fireworks/Motion.movePoint().*	movePointÄ*2
+$fireworks/Motion.movePoint().(point)*pointÄ*:
+(fireworks/Motion.movePoint().(direction)*	directionÄ*2
+$fireworks/Motion.movePoint().(speed)*speedÄ*%
+fireworks/Motion.drag().*dragÄ*-
+fireworks/Motion.drag().(speed)*speedÄ*&
+fireworks/Settings.
+ *SettingsÄ**
+fireworks/Settings.width. Ä*widthÄ*,
+fireworks/Settings.height. Ä*heightÄ*,
+fireworks/Settings.colors. Ä*colorsÄ*0
+fireworks/Settings.friction. Ä*frictionÄ*.
+fireworks/Settings.gravity. Ä*gravityÄ*>
+#fireworks/Settings.propulsionSpeed. Ä*propulsionSpeedÄ2
+ 
+fireworks/2 
+ doodle/core/Angle.2 
+ doodle/core/Angle#2 
+  doodle/core/Color.2 
+  doodle/core/Color#2 
+" 'doodle/core/Point.2 
+" 'doodle/core/Point#2
+ doodle/core/2
+ doodle/2 
+ scala/util/Random.2 
+ scala/util/Random#2
+ scala/util/2
+ scala/2!
+ fireworks/Firework#2(
+fireworks/Firework#`<init>`().2!
+ fireworks/Firework.2(
+ 
+fireworks/Firework.init().2!
+ fireworks/Firework#2'
+! %fireworks/Waiting.init().2 
+  fireworks/Waiting.2(
+## 
+fireworks/Firework.next().22
+## $fireworks/Firework.next().(firework)2!
+## fireworks/Firework#2!
+# # (fireworks/Firework#22
+$$ $fireworks/Firework.next().(firework)2
+%% local02 
+%% fireworks/Waiting#2'
+%&% *fireworks/Waiting#next().2
+%% %local02
+&& local12!
+&& fireworks/Launched#2(
+&+& /fireworks/Launched#next().2
+&"& *local12
+'' local22"
+''  fireworks/Exploding#2)
+'.' 2fireworks/Exploding#next().2
+'$' -local22
+(( fireworks/Done.2
+(( fireworks/Done.2 
+44 fireworks/Waiting#2+
+44 fireworks/Waiting#`<init>`().2
+44 !
+scala/Int#2 
+424 7doodle/core/Point#2
+4L4 O
+scala/Int#2 
+4a4 fdoodle/core/Color#2!
+4p4 xfireworks/Firework#2*
+44 fireworks/Waiting#countDown.2.
+4#4 0 fireworks/Waiting#startPosition.22
+494 J$fireworks/Waiting#numberOfParticles.2/
+4Q4 _!fireworks/Waiting#particlesColor.2'
+AA 
+fireworks/Waiting#next().2!
+AA fireworks/Firework#2 
+BB scala/Int#`>`(+3).2*
+BB fireworks/Waiting#countDown.2'
+CC 
+fireworks/Waiting#copy().22
+CC $fireworks/Waiting#copy().(countDown)2 
+C!C "scala/Int#`-`(+3).2*
+CC  fireworks/Waiting#countDown.2(
+DD fireworks/Launched.init().2!
+D	D fireworks/Launched.22
+DD $fireworks/Launched.init().(position)2.
+D"D / fireworks/Waiting#startPosition.2;
+D2D C-fireworks/Launched.init().(numberOfParticles)22
+DFD W$fireworks/Waiting#numberOfParticles.28
+DXD f*fireworks/Launched.init().(particlesColor)2/
+DiD w!fireworks/Waiting#particlesColor.2 
+HH fireworks/Waiting.2'
+MM 
+fireworks/Waiting.init().2 
+MM fireworks/Waiting#2
+OO local32"
+OO scala/Array#apply().2(
+OO fireworks/Settings.colors.2!
+OO fireworks/Settings.2,
+O'O .scala/util/Random#nextInt(+1).2 
+O O &scala/util/Random.2#
+O?O Escala/Array#length().2(
+O8O >fireworks/Settings.colors.2!
+O/O 7fireworks/Settings.2
+PP local42
+RR local52(
+RR doodle/core/Point.apply().2 
+RR doodle/core/Point.2#
+S@S Hscala/Int#toDouble().2 
+S*S +scala/Int#`-`(+3).2,
+SS scala/util/Random#nextInt(+1).2 
+SS scala/util/Random.2 
+S%S &scala/Int#`/`(+3).2'
+SS $fireworks/Settings.width.2!
+SS fireworks/Settings.2 
+S;S <scala/Int#`/`(+3).2'
+S5S :fireworks/Settings.width.2!
+S,S 4fireworks/Settings.2#
+TT %scala/Int#toDouble().2 
+TT scala/Int#`/`(+3).2$
+TT scala/Int#`unary_-`().2(
+TT fireworks/Settings.height.2!
+TT fireworks/Settings.2
+WW local62,
+WW "scala/util/Random#nextInt(+1).2 
+WW scala/util/Random.2(
+XX fireworks/Waiting.apply().2 
+XX fireworks/Waiting.2
+XX local62
+XX local52
+X!X 2local42
+X4X 9local32!
+gg fireworks/Launched#2,
+gg fireworks/Launched#`<init>`().2
+gg "
+scala/Int#2 
+g.g 3doodle/core/Point#2 
+g@g Edoodle/core/Angle#2
+gZg ]
+scala/Int#2 
+gog tdoodle/core/Color#2"
+	g~g Üfireworks/Firework#2+
+gg fireworks/Launched#countDown.2*
+g$g ,fireworks/Launched#position.2+
+g5g >fireworks/Launched#direction.23
+gGg X%fireworks/Launched#numberOfParticles.20
+g_g m"fireworks/Launched#particlesColor.2(
+ss 
+fireworks/Launched#next().2!
+ss fireworks/Firework#2 
+tt scala/Int#`>`(+3).2+
+tt fireworks/Launched#countDown.2(
+uu 
+fireworks/Launched#copy().23
+uu %fireworks/Launched#copy().(countDown)2 
+u!u "scala/Int#`-`(+3).2+
+uu  fireworks/Launched#countDown.22
+u&u .$fireworks/Launched#copy().(position)2+
+u8u Afireworks/Motion.movePoint().2
+u1u 7fireworks/Motion.2*
+uBu Jfireworks/Launched#position.2+
+uLu Ufireworks/Launched#direction.21
+u_u n#fireworks/Settings.propulsionSpeed.2!
+uVu ^fireworks/Settings.2)
+ww fireworks/Exploding.init().2"
+w	w fireworks/Exploding.2<
+ww ).fireworks/Exploding.init().(numberOfParticles)23
+w,w =%fireworks/Launched#numberOfParticles.24
+w>w G&fireworks/Exploding.init().(direction)2+
+wJw Sfireworks/Launched#direction.23
+wTw \%fireworks/Exploding.init().(position)2*
+w_w gfireworks/Launched#position.20
+whw m"fireworks/Exploding.init().(color)20
+wpw ~"fireworks/Launched#particlesColor.2!
+{{ fireworks/Launched.2*
+
+ÉÉ 
+fireworks/Launched.init().24
+
+ÉÉ $fireworks/Launched.init().(position)2"
+
+ÉÉ doodle/core/Point#2=
+
+ÉÉ --fireworks/Launched.init().(numberOfParticles)2
+
+É/É 2
+scala/Int#2:
+
+É4É B*fireworks/Launched.init().(particlesColor)2"
+
+ÉDÉ Idoodle/core/Color#2#
+
+ÉLÉ Tfireworks/Launched#2
+
+ÖÖ local72*
+
+ÖÖ doodle/core/Angle.apply().2"
+
+ÖÖ doodle/core/Angle.2%
+
+Ö&Ö 'scala/Double#`+`(+7).2%
+
+Ö"Ö #scala/Double#`/`(+3).2&
+
+ÖÖ !scala/math/package.Pi.2
+
+ÖÖ scala/math/2%
+
+ÖDÖ Escala/Double#`/`(+3).2%
+
+Ö=Ö >scala/Double#`-`(+6).2/
+
+Ö0Ö :scala/util/Random#nextDouble().2"
+
+Ö)Ö /scala/util/Random.2+
+
+ÜÜ fireworks/Launched.apply().2#
+
+ÜÜ fireworks/Launched.26
+
+ÜÜ &fireworks/Launched.apply().(countDown)24
+
+ÜÜ %$fireworks/Launched.init().(position)2
+
+Ü'Ü 0local72=
+
+Ü2Ü C-fireworks/Launched.init().(numberOfParticles)2:
+
+ÜEÜ S*fireworks/Launched.init().(particlesColor)2$
+
+èè fireworks/Exploding#2/
+
+èè fireworks/Exploding#`<init>`().2
+
+è è #
+scala/Int#2$
+
+è0è 9fireworks/Particles#2#
+
+èCè Kfireworks/Firework#2.
+
+èè fireworks/Exploding#countDown.2.
+
+è%è .fireworks/Exploding#particles.2+
+
+úú 
+fireworks/Exploding#next().2#
+
+úú fireworks/Firework#2"
+
+ùù scala/Int#`>`(+3).2.
+
+ùù fireworks/Exploding#countDown.2+
+
+ûû 
+fireworks/Exploding#copy().26
+
+ûû &fireworks/Exploding#copy().(countDown)2"
+
+û û !scala/Int#`-`(+3).2.
+
+ûû  fireworks/Exploding#countDown.26
+
+û#û ,&fireworks/Exploding#copy().(particles)2+
+
+û9û =fireworks/Particles#next().2.
+
+û/û 8fireworks/Exploding#particles.2
+
+ü	ü fireworks/Done.2$
+
+§§ fireworks/Exploding.2+
+
+≠≠ 
+fireworks/Exploding.init().2>
+
+≠≠ .fireworks/Exploding.init().(numberOfParticles)2
+
+≠≠ !
+scala/Int#26
+
+≠#≠ ,&fireworks/Exploding.init().(direction)2"
+
+≠.≠ 3doodle/core/Angle#25
+
+≠5≠ =%fireworks/Exploding.init().(position)2"
+
+≠?≠ Ddoodle/core/Point#22
+
+≠F≠ K"fireworks/Exploding.init().(color)2"
+
+≠M≠ Rdoodle/core/Color#2$
+
+≠U≠ ^fireworks/Exploding#2
+
+ØØ local82B
+
+ØØ 2scala/collection/StrictOptimizedSeqFactory#fill().2#
+
+ØØ scala/package.List.2>
+
+ØØ /.fireworks/Exploding.init().(numberOfParticles)2*
+
+Ø:Ø >fireworks/Particle.init().2#
+
+Ø1Ø 9fireworks/Particle.26
+
+Ø?Ø H&fireworks/Exploding.init().(direction)25
+
+ØJØ R%fireworks/Exploding.init().(position)22
+
+ØTØ Y"fireworks/Exploding.init().(color)2,
+
+∞∞ fireworks/Exploding.apply().2$
+
+∞∞ fireworks/Exploding.27
+
+∞∞ 'fireworks/Exploding.apply().(countDown)2,
+
+∞'∞ 'fireworks/Particles.apply().2$
+
+∞∞ 'fireworks/Particles.2
+
+∞(∞ 1local82
+
+∑∑ fireworks/Done.2#
+
+∑∑ !fireworks/Firework#2#
+
+¿¿ fireworks/Particle#2.
+
+¿¿ fireworks/Particle#`<init>`().2
+
+¿%¿ +scala/Double#2
+
+¿<¿ Bscala/Double#2"
+
+¿N¿ Sdoodle/core/Point#2"
+
+¿\¿ adoodle/core/Color#23
+
+¿¿ ##fireworks/Particle#horizontalSpeed.21
+
+¿-¿ :!fireworks/Particle#verticalSpeed.2,
+
+¿D¿ Lfireworks/Particle#position.2)
+
+¿U¿ Zfireworks/Particle#color.2*
+
+   
+fireworks/Particle#next().2#
+
+   fireworks/Particle#2
+
+ŒŒ local92
+
+Œ Œ &scala/Double#2(
+
+œœ fireworks/Motion.drag().2!
+
+œœ fireworks/Motion.23
+
+œœ  #fireworks/Particle#horizontalSpeed.2
+
+”” local102
+
+”” $scala/Double#2(
+
+”.” 2fireworks/Motion.drag().2!
+
+”'” -fireworks/Motion.2%
+
+”@” Ascala/Double#`-`(+6).21
+
+”3” @!fireworks/Particle#verticalSpeed.2+
+
+”J” Qfireworks/Settings.gravity.2#
+
+”A” Ifireworks/Settings.2
+
+÷÷ local112*
+
+÷÷ doodle/core/Point.apply().2"
+
+÷÷ doodle/core/Point.2%
+
+÷+÷ ,scala/Double#`+`(+7).2&
+
+÷)÷ *doodle/core/Point#x().2,
+
+÷ ÷ (fireworks/Particle#position.2
+
+÷-÷ Clocal92%
+
+÷P÷ Qscala/Double#`+`(+7).2&
+
+÷N÷ Odoodle/core/Point#y().2,
+
+÷E÷ Mfireworks/Particle#position.2
+
+÷R÷ flocal102+
+
+ÿÿ fireworks/Particle.apply().2#
+
+ÿÿ fireworks/Particle.2
+
+ÿÿ #local92
+
+ÿ$ÿ 8local102
+
+ÿ9ÿ Hlocal112)
+
+ÿIÿ Nfireworks/Particle#color.2$
+
+ÂÂ fireworks/Particles#2/
+
+ÂÂ fireworks/Particles#`<init>`().2#
+
+ÂÂ  scala/package.List#2#
+
+Â!Â )fireworks/Particle#2*
+
+ÂÂ fireworks/Particles#value.2+
+
+ÈÈ 
+fireworks/Particles#next().2$
+
+ÈÈ fireworks/Particles#2,
+
+È!È !fireworks/Particles.apply().2$
+
+ÈÈ !fireworks/Particles.26
+
+È(È +&scala/collection/immutable/List#map().2*
+
+È"È 'fireworks/Particles#value.2
+
+È,È 4local122*
+
+ÈAÈ Efireworks/Particle#next().2
+
+È8È @local122#
+
+ÌÌ fireworks/Particle.2*
+
+ıı 
+fireworks/Particle.init().2<
+
+ıı ,fireworks/Particle.init().(initialDirection)2"
+
+ıı "doodle/core/Angle#24
+
+ı$ı ,$fireworks/Particle.init().(position)2"
+
+ı.ı 3doodle/core/Point#21
+
+ı5ı :!fireworks/Particle.init().(color)2"
+
+ı<ı Adoodle/core/Color#2#
+
+ıDı Lfireworks/Particle#2
+
+ˆˆ local132(
+
+ˆ!ˆ "doodle/core/Angle#`+`().2<
+
+ˆˆ  ,fireworks/Particle.init().(initialDirection)2*
+
+ˆ(ˆ (doodle/core/Angle.apply().2"
+
+ˆ#ˆ (doodle/core/Angle.2%
+
+ˆMˆ Nscala/Double#`-`(+6).2%
+
+ˆ=ˆ >scala/Double#`*`(+6).2/
+
+ˆ0ˆ :scala/util/Random#nextDouble().2"
+
+ˆ)ˆ /scala/util/Random.2%
+
+ˆHˆ Iscala/Double#`/`(+3).2&
+
+ˆEˆ Gscala/math/package.Pi.2
+
+ˆ@ˆ Dscala/math/2%
+
+ˆWˆ Xscala/Double#`/`(+3).2&
+
+ˆTˆ Vscala/math/package.Pi.2
+
+ˆOˆ Sscala/math/2
+
+˜˜ local142%
+
+˜,˜ -scala/Double#`+`(+4).2%
+
+˜'˜ (scala/Double#`*`(+3).2/
+
+˜˜ $scala/util/Random#nextDouble().2"
+
+˜˜ scala/util/Random.2+
+
+¯¯ fireworks/Particle.apply().2#
+
+¯¯ fireworks/Particle.2%
+
+¯¯ scala/Double#`*`(+6).2(
+
+¯¯ doodle/core/Angle#cos().2
+
+¯¯ local132
+
+¯¯ !local142%
+
+¯-¯ .scala/Double#`*`(+6).2(
+
+¯)¯ ,doodle/core/Angle#sin().2
+
+¯#¯ (local132
+
+¯/¯ 7local1424
+
+¯9¯ A$fireworks/Particle.init().(position)21
+
+¯C¯ H!fireworks/Particle.init().(color)2!
+
+ˇˇ fireworks/Motion.2-
+
+áá fireworks/Motion.movePoint().24
+
+áá $fireworks/Motion.movePoint().(point)2"
+
+áá doodle/core/Point#28
+
+áá '(fireworks/Motion.movePoint().(direction)2"
+
+á)á .doodle/core/Angle#24
+
+á0á 5$fireworks/Motion.movePoint().(speed)2
+
+á7á =scala/Double#2"
+
+á@á Edoodle/core/Point#2*
+
+à	à 	doodle/core/Point.apply().2"
+
+àà 	doodle/core/Point.2%
+
+àà scala/Double#`+`(+7).2&
+
+àà doodle/core/Point#x().24
+
+à
+à $fireworks/Motion.movePoint().(point)2%
+
+à"à #scala/Double#`*`(+6).2(
+
+àà !doodle/core/Angle#cos().28
+
+àà (fireworks/Motion.movePoint().(direction)24
+
+à$à )$fireworks/Motion.movePoint().(speed)2%
+
+à3à 4scala/Double#`+`(+7).2&
+
+à1à 2doodle/core/Point#y().24
+
+à+à 0$fireworks/Motion.movePoint().(point)2%
+
+àCà Dscala/Double#`*`(+6).2(
+
+à?à Bdoodle/core/Angle#sin().28
+
+à5à >(fireworks/Motion.movePoint().(direction)24
+
+àEà J$fireworks/Motion.movePoint().(speed)2(
+
+çç 
+fireworks/Motion.drag().2/
+
+çç fireworks/Motion.drag().(speed)2
+
+çç scala/Double#2
+
+çç !scala/Double#2%
+
+éé scala/Double#`>`(+6).2/
+
+éé fireworks/Motion.drag().(speed)2,
+
+éé  fireworks/Settings.friction.2#
+
+éé fireworks/Settings.2+
+
+èè scala/math/package.max(+3).2
+
+èè 
+scala/math/2%
+
+èè scala/Double#`-`(+6).2/
+
+èè fireworks/Motion.drag().(speed)2,
+
+è è (fireworks/Settings.friction.2#
+
+èè fireworks/Settings.2%
+
+êê scala/Double#`<`(+6).2/
+
+êê fireworks/Motion.drag().(speed)2)
+
+ê&ê &scala/Double#`unary_-`().2,
+
+êê &fireworks/Settings.friction.2#
+
+êê fireworks/Settings.2+
+
+ëë scala/math/package.min(+3).2
+
+ëë 
+scala/math/2%
+
+ëë scala/Double#`+`(+7).2/
+
+ëë fireworks/Motion.drag().(speed)2,
+
+ë ë (fireworks/Settings.friction.2#
+
+ëë fireworks/Settings.2#
+
+óó fireworks/Settings.2)
+
+ôô fireworks/Settings.width.2*
+
+öö fireworks/Settings.height.2*
+
+õõ fireworks/Settings.colors.2
+
+õõ scala/Array#2"
+
+õõ doodle/core/Color#2$
+
+õ"õ "scala/Array.apply().2
+
+õõ "scala/Array.2-
+
+õ)õ ,doodle/core/CommonColors#red.2"
+
+õ#õ (doodle/core/Color.20
+
+õ4õ : doodle/core/CommonColors#yellow.2"
+
+õ.õ 3doodle/core/Color.2/
+
+õBõ Gdoodle/core/CommonColors#white.2"
+
+õ<õ Adoodle/core/Color.2.
+
+õOõ Sdoodle/core/CommonColors#blue.2"
+
+õIõ Ndoodle/core/Color.20
+
+õ[õ a doodle/core/CommonColors#violet.2"
+
+õUõ Zdoodle/core/Color.2/
+
+õbõ bscala/reflect/ClassTag.apply().2,
+
+ûû fireworks/Settings.friction.2+
+
+üü fireworks/Settings.gravity.23
+
+†† #fireworks/Settings.propulsionSpeed.PZ A083E5D0A28C940E53EDDC3DC2B1D2C4

@@ -1,0 +1,87 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 1.8.0_292)
+[debug] Load.defaultLoad until apply took 597.257456ms
+[debug]                       Load.loadUnit: plugins took 289.43791ms
+[debug]                       Load.loadUnit: defsScala took 1.509996ms
+[debug] [Loading] Scanning directory /home/priyoi/Files/Coursera/Scala/codecs/project/project/project
+[debug]                         Load.loadUnit: mkEval took 26.54219ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/priyoi/Files/Coursera/Scala/codecs/project/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 96.606526 ms
+[info] loading settings for project codecs-build-build-build from metals.sbt ...
+[debug]                           Load.resolveProject(codecs-build-build-build) took 230.936698ms
+[debug]                         Load.loadTransitive: finalizeProject(Project(id codecs-build-build-build, base: /home/priyoi/Files/Coursera/Scala/codecs/project/project/project, plugins: List(<none>))) took 437.231456ms
+[debug] [Loading] Done in /home/priyoi/Files/Coursera/Scala/codecs/project/project/project, returning: (codecs-build-build-build)
+[debug]                       Load.loadUnit: loadedProjectsRaw took 2150.051916ms
+[debug]                       Load.loadUnit: cleanEvalClasses took 39.526794ms
+[debug]                     Load.loadUnit(file:/home/priyoi/Files/Coursera/Scala/codecs/project/project/project/, ...) took 2502.14389ms
+[debug]                   Load.apply: load took 3102.100296ms
+[debug]                   Load.apply: resolveProjects took 34.22604ms
+[debug]                   Load.apply: finalTransforms took 337.179979ms
+[debug]                   Load.apply: config.delegates took 24.478427ms
+[debug]                   Load.apply: Def.make(settings)... took 1694.943963ms
+[debug]                   Load.apply: structureIndex took 475.357765ms
+[debug]                   Load.apply: mkStreams took 3.715097ms
+[info] loading project definition from /home/priyoi/Files/Coursera/Scala/codecs/project/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]                 Load.loadUnit: plugins took 9072.108093ms
+[debug]                 Load.loadUnit: defsScala took 0.00708ms
+[debug] [Loading] Scanning directory /home/priyoi/Files/Coursera/Scala/codecs/project/project
+[debug]                   Load.loadUnit: mkEval took 0.593334ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/priyoi/Files/Coursera/Scala/codecs/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 20.454954 ms
+[info] loading settings for project codecs-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(codecs-build-build) took 113.260069ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id codecs-build-build, base: /home/priyoi/Files/Coursera/Scala/codecs/project/project, plugins: List(<none>))) took 135.272885ms
+[debug] [Loading] Done in /home/priyoi/Files/Coursera/Scala/codecs/project/project, returning: (codecs-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 184.244058ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 1.233612ms
+[debug]               Load.loadUnit(file:/home/priyoi/Files/Coursera/Scala/codecs/project/project/, ...) took 9259.454599ms
+[debug]             Load.apply: load took 9269.628162ms
+[debug]             Load.apply: resolveProjects took 0.740754ms
+[debug]             Load.apply: finalTransforms took 112.679786ms
+[debug]             Load.apply: config.delegates took 1.948198ms
+[debug]             Load.apply: Def.make(settings)... took 606.791629ms
+[debug]             Load.apply: structureIndex took 95.870536ms
+[debug]             Load.apply: mkStreams took 0.00499ms
+[info] loading project definition from /home/priyoi/Files/Coursera/Scala/codecs/project/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@17229821, check cycles: false, forcegc: true

@@ -1,0 +1,156 @@
+
+ä-7src/main/scala/wikigraph/implementations/InMemory.scala*6
+#wikigraph/implementations/InMemory# *InMemory€*@
+.wikigraph/implementations/InMemory#`<init>`(). €@*<init>€*C
+5wikigraph/implementations/InMemory#`<init>`().(graph)*graph€*:
+)wikigraph/implementations/InMemory#graph. €*graph€*A
+/wikigraph/implementations/InMemory#linksFrom().*	linksFrom€*@
+4wikigraph/implementations/InMemory#linksFrom().(art)*art€*B
+4wikigraph/implementations/InMemory#linksFrom().(x$2)  *x$2€*
+local0 €*node€*I
+3wikigraph/implementations/InMemory#nameOfArticle().*nameOfArticle€*D
+8wikigraph/implementations/InMemory#nameOfArticle().(art)*art€*F
+8wikigraph/implementations/InMemory#nameOfArticle().(x$2)  *x$2€*?
+.wikigraph/implementations/InMemory#searchId().*searchId€*C
+5wikigraph/implementations/InMemory#searchId().(title)*title€*A
+3wikigraph/implementations/InMemory#searchId().(x$2)  *x$2€*
+local1 €*res€*
+local2*id€*
+local3*x$1€*
+local4*t€*
+local5 €*	articleId€2$
+ !wikigraph/implementations/2
+ 
+wikigraph/20
+ ("scala/concurrent/ExecutionContext.20
+ ("scala/concurrent/ExecutionContext#2
+ scala/concurrent/2
+ scala/2
+ 
+wikigraph/2#
+ wikigraph/WikiResult.2#
+ wikigraph/WikiResult#2
+ 
+wikigraph/2#
+ wikigraph/WikiResult.2
+ 
+wikigraph/2+
+ #wikigraph/Articles.ArticleId.2!
+ wikigraph/Articles.2
+ 
+wikigraph/2)
+ !wikigraph/errors/WikiError.2)
+ !wikigraph/errors/WikiError#2
+ wikigraph/errors/2
+ 
+wikigraph/2)
+ !wikigraph/errors/WikiError.2
+ wikigraph/errors/2
+ 
+wikigraph/21
+
+
+ #wikigraph/implementations/InMemory#2<
+
+
+ .wikigraph/implementations/InMemory#`<init>`().2
+
+
+ scala/Predef.Map#2+
+
+ 
+ )wikigraph/Articles.ArticleId#2
+
++
+ .scala/Predef.Set#2+
+
+/
+ 8wikigraph/Articles.ArticleId#2"
+
+D
+ Mwikigraph/Wikipedia#27
+
+
+ )wikigraph/implementations/InMemory#graph.2=
+ /wikigraph/implementations/InMemory#linksFrom().2B
+ 4wikigraph/implementations/InMemory#linksFrom().(art)2+
+ 'wikigraph/Articles.ArticleId#20
+/ ?"scala/concurrent/ExecutionContext#2#
+B Lwikigraph/WikiResult#2
+M Pscala/Predef.Set#2+
+Q Zwikigraph/Articles.ArticleId#2,
+
+ scala/collection/MapOps#get().27
+ 	)wikigraph/implementations/InMemory#graph.2B
+ 4wikigraph/implementations/InMemory#linksFrom().(art)2#
+ scala/Some.unapply().2
+ scala/Some.2
+ local020
+$ ."wikigraph/WikiResult.successful().2#
+ #wikigraph/WikiResult.2
+/ 3local02
+ scala/None.21
+ )#wikigraph/WikiResult.domainError().2#
+ wikigraph/WikiResult.2A
+9 93wikigraph/errors/WikiError.ArticleNotFound.apply().29
+* 9+wikigraph/errors/WikiError.ArticleNotFound.2B
+: =4wikigraph/implementations/InMemory#linksFrom().(art)2A
+ 3wikigraph/implementations/InMemory#nameOfArticle().2F
+  8wikigraph/implementations/InMemory#nameOfArticle().(art)2+
+" +wikigraph/Articles.ArticleId#20
+3 C"scala/concurrent/ExecutionContext#2#
+F Pwikigraph/WikiResult#2"
+Q Wscala/Predef.String#21
+ #scala/collection/MapOps#contains().27
+ )wikigraph/implementations/InMemory#graph.2F
+ 8wikigraph/implementations/InMemory#nameOfArticle().(art)20
++ 5"wikigraph/WikiResult.successful().2#
+  *wikigraph/WikiResult.2&
+N Oscala/StringContext#s().2*
+8 8scala/StringContext.apply().2'
+F Fwikigraph/Articles.raw().2F
+F I8wikigraph/implementations/InMemory#nameOfArticle().(art)21
+ #wikigraph/WikiResult.domainError().2#
+	 wikigraph/WikiResult.2?
+- -1wikigraph/errors/WikiError.TitleNotFound.apply().27
+  -)wikigraph/errors/WikiError.TitleNotFound.2F
+. 18wikigraph/implementations/InMemory#nameOfArticle().(art)2<
+ .wikigraph/implementations/InMemory#searchId().2C
+ 5wikigraph/implementations/InMemory#searchId().(title)2"
+ %scala/Predef.String#20
+- ="scala/concurrent/ExecutionContext#2#
+@ Jwikigraph/WikiResult#2+
+K Twikigraph/Articles.ArticleId#2
+ local126
+C G(scala/collection/IterableOnceOps#find().21
+ #scala/collection/IterableOps#map().2-
+ scala/collection/MapOps#keys().27
+ )wikigraph/implementations/InMemory#graph.2
+ local22-
+& (scala/Predef.ArrowAssoc#`->`().2(
+# #scala/Predef.ArrowAssoc().2
+# %local22&
+@ Ascala/StringContext#s().2*
++ +scala/StringContext.apply().2'
+9 9wikigraph/Articles.raw().2
+9 ;local22
+I Iscala/Tuple2#_1.2
+L Mlocal42
+L Lscala/Tuple2#_2.2
+T Vscala/Any#`==`().2
+R Slocal42C
+W \5wikigraph/implementations/InMemory#searchId().(title)2
+ local12
+ scala/None.21
+ )#wikigraph/WikiResult.domainError().2#
+ wikigraph/WikiResult.2:
+2 2,wikigraph/errors/WikiError.NoResult.apply().22
+* 2$wikigraph/errors/WikiError.NoResult.2C
+3 85wikigraph/implementations/InMemory#searchId().(title)2#
+ scala/Some.unapply().2
+ scala/Some.2%
+ scala/Tuple2.unapply().2
+ local520
+. 8"wikigraph/WikiResult.successful().2#
+# -wikigraph/WikiResult.2
+9 Blocal5PZ 39FB1DE6617A3CC653705A65B4E4A293

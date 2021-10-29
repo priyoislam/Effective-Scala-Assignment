@@ -1,0 +1,322 @@
+
+˜X)src/main/scala/todo/PersistentModel.scala*/
+todo/PersistentModel.
+ *PersistentModelÄ*4
+todo/PersistentModel.tasksPath. Ä*	tasksPathÄ*.
+todo/PersistentModel.idPath. Ä*idPathÄ*3
+!todo/PersistentModel.loadTasks().*	loadTasksÄ*-
+todo/PersistentModel.loadId().*loadIdÄ*)
+todo/PersistentModel.load().*loadÄ*)
+todo/PersistentModel.load().[A]	*AÄ*/
+"todo/PersistentModel.load().(path)*pathÄ*7
+%todo/PersistentModel.load().(decoder)  *decoderÄ*
+local0 Ä*strÄ*
+local1 Ä*resultÄ*
+local2 Ä*errorÄ*3
+!todo/PersistentModel.saveTasks().*	saveTasksÄ*6
+(todo/PersistentModel.saveTasks().(tasks)*tasksÄ*-
+todo/PersistentModel.saveId().*saveIdÄ*-
+"todo/PersistentModel.saveId().(id)*idÄ*)
+todo/PersistentModel.save().*saveÄ*)
+todo/PersistentModel.save().[A]	*AÄ*/
+"todo/PersistentModel.save().(path)*pathÄ*/
+"todo/PersistentModel.save().(data)*dataÄ*7
+%todo/PersistentModel.save().(encoder)  *encoderÄ*
+local3 Ä*jsonÄ*8
+!todo/PersistentModel.idGenerator. Ä*idGeneratorÄ*0
+todo/PersistentModel.idStore. Ä*idStoreÄ*-
+todo/PersistentModel.create().*createÄ*1
+$todo/PersistentModel.create().(task)*taskÄ*
+local4 Ä*idÄ*)
+todo/PersistentModel.read().*readÄ*+
+ todo/PersistentModel.read().(id)*idÄ*-
+todo/PersistentModel.update().*updateÄ*-
+"todo/PersistentModel.update().(id)*idÄ*+
+!todo/PersistentModel.update().(f)*fÄ*
+local5*optÄ*-
+todo/PersistentModel.delete().*deleteÄ*-
+"todo/PersistentModel.delete().(id)*idÄ*
+local6 Ä*foundÄ*+
+todo/PersistentModel.tasks().*tasksÄ*-
+todo/PersistentModel.tasks(+1).*tasksÄ*0
+$todo/PersistentModel.tasks(+1).(tag)*tagÄ*1
+ todo/PersistentModel.complete().*completeÄ*/
+$todo/PersistentModel.complete().(id)*idÄ*
+local7*taskÄ*)
+todo/PersistentModel.tags().*tagsÄ*
+local8*x$1Ä*
+local9*idÄ*
+local10*taskÄ*+
+todo/PersistentModel.clear().*clearÄ2
+ todo/2
+ cats/implicits.2
+ cats/2!
+ java/nio/file/Path.2!
+ java/nio/file/Path#2"
+ !java/nio/file/Paths#2"
+# (java/nio/file/Files#2
+ java/nio/file/2
+ 	java/nio/2
+ java/20
+ ("java/nio/charset/StandardCharsets#2
+ java/nio/charset/2
+ 	java/nio/2
+ java/2
+ io/circe/Decoder.2
+ io/circe/Decoder#2
+ !io/circe/Encoder.2
+ !io/circe/Encoder#2
+
+ 	io/circe/2
+ 	io/2
+ io/circe/parser/2
+
+ 	io/circe/2
+ 	io/2
+ io/circe/syntax/2
+
+ 	io/circe/2
+ 	io/2'
+ scala/collection/mutable/2
+ scala/collection/2
+ scala/2
+		 
+todo/data/2
+		 todo/2#
+ todo/PersistentModel.2
+ $todo/Model#2
+	 todo/data/Codecs.2-
+ todo/PersistentModel.tasksPath.2(
+ java/nio/file/Paths#get().2"
+ java/nio/file/Paths#2*
+ todo/PersistentModel.idPath.2(
+ java/nio/file/Paths#get().2"
+ java/nio/file/Paths#2/
+ !todo/PersistentModel.loadTasks().2
+ todo/data/Tasks#2+
+ java/nio/file/Files#exists().2"
+ java/nio/file/Files#2-
+ todo/PersistentModel.tasksPath.2*
+ 
+todo/PersistentModel.load().2
+ todo/data/Tasks#2-
+ todo/PersistentModel.tasksPath.2*
+ todo/data/Codecs.tasksCodec.2$
+!! todo/data/Tasks.empty.2
+!! todo/data/Tasks.2,
+'' todo/PersistentModel.loadId().2
+'' todo/data/Id#2+
+(( java/nio/file/Files#exists().2"
+(( java/nio/file/Files#2*
+(( todo/PersistentModel.idPath.2*
+)) 
+todo/PersistentModel.load().2
+)) todo/data/Id#2*
+)) todo/PersistentModel.idPath.2)
+)) todo/data/Codecs.idEncoder.2#
+++ todo/data/Id.apply().2
+++ todo/data/Id.2*
+66 
+todo/PersistentModel.load().2-
+66 todo/PersistentModel.load().[A]20
+66 "todo/PersistentModel.load().(path)2!
+66 java/nio/file/Path#23
+6 6 '%todo/PersistentModel.load().(decoder)2
+6)6 0io/circe/Decoder#2-
+616 2todo/PersistentModel.load().[A]2-
+666 7todo/PersistentModel.load().[A]2
+77 local021
+77 #java/nio/file/Files#readString(+1).2"
+77 java/nio/file/Files#20
+77 #"todo/PersistentModel.load().(path)26
+767 ;(java/nio/charset/StandardCharsets#UTF_8.20
+7%7 5"java/nio/charset/StandardCharsets#2'
+;; 
+io/circe/Parser#decode().2-
+;; todo/PersistentModel.load().[A]2
+;; local023
+;; %todo/PersistentModel.load().(decoder)2)
+<< scala/util/Right.unapply().2"
+<< scala/package.Right.2
+<< local12
+<< "local12(
+== scala/util/Left.unapply().2!
+== scala/package.Left.2
+== local22
+= = %local22/
+DD !todo/PersistentModel.saveTasks().26
+DD (todo/PersistentModel.saveTasks().(tasks)2
+DD todo/data/Tasks#2
+DD #scala/Unit#2*
+EE todo/PersistentModel.save().2-
+E	E todo/PersistentModel.tasksPath.26
+EE (todo/PersistentModel.saveTasks().(tasks)2*
+EE todo/data/Codecs.tasksCodec.2,
+JJ todo/PersistentModel.saveId().20
+JJ "todo/PersistentModel.saveId().(id)2
+JJ todo/data/Id#2
+JJ scala/Unit#2*
+KK todo/PersistentModel.save().2*
+K	K todo/PersistentModel.idPath.20
+KK "todo/PersistentModel.saveId().(id)2)
+KK todo/data/Codecs.idEncoder.2*
+VV 
+todo/PersistentModel.save().2-
+VV todo/PersistentModel.save().[A]20
+VV "todo/PersistentModel.save().(path)2!
+VV java/nio/file/Path#20
+VV "todo/PersistentModel.save().(data)2-
+V V !todo/PersistentModel.save().[A]23
+V)V 0%todo/PersistentModel.save().(encoder)2
+V2V 9io/circe/Encoder#2-
+V:V ;todo/PersistentModel.save().[A]2
+V?V Cscala/Unit#2
+WW local32:
+WW ,io/circe/syntax/package.EncoderOps#asJson().23
+WW %io/circe/syntax/package.EncoderOps().20
+WW "todo/PersistentModel.save().(data)23
+WW %todo/PersistentModel.save().(encoder)22
+X
+X $java/nio/file/Files#writeString(+1).2"
+XX 	java/nio/file/Files#20
+XX "todo/PersistentModel.save().(path)2&
+X!X (io/circe/Json#spaces2().2
+XX  local326
+X;X @(java/nio/charset/StandardCharsets#UTF_8.20
+X*X :"java/nio/charset/StandardCharsets#2/
+`` !todo/PersistentModel.idGenerator.2*
+`'` 'todo/IdGenerator#`<init>`().2
+`` 'todo/IdGenerator#2,
+`(` .todo/PersistentModel.loadId().2+
+aa todo/PersistentModel.idStore.25
+aa ,'scala/collection/mutable/LinkedHashMap#2'
+aa scala/collection/mutable/2
+a-a /todo/data/Id#2
+a1a 5todo/data/Task#2<
+bb .scala/collection/mutable/LinkedHashMap.from().25
+bb 'scala/collection/mutable/LinkedHashMap.2'
+bb scala/collection/mutable/2'
+b+b 1todo/data/Tasks#toList().2/
+bb (!todo/PersistentModel.loadTasks().2,
+dd todo/PersistentModel.create().22
+dd $todo/PersistentModel.create().(task)2
+dd todo/data/Task#2
+dd todo/data/Id#2
+ee 
+local42(
+ee todo/IdGenerator#nextId().2/
+ee !todo/PersistentModel.idGenerator.27
+ff )scala/collection/mutable/Growable#`+=`().2+
+ff todo/PersistentModel.idStore.2-
+ff scala/Predef.ArrowAssoc#`->`().2(
+ff scala/Predef.ArrowAssoc().2
+ff local422
+ff $todo/PersistentModel.create().(task)2
+gg local42*
+jj 
+todo/PersistentModel.read().2.
+jj  todo/PersistentModel.read().(id)2
+jj todo/data/Id#2
+jj scala/Option#2
+jj todo/data/Task#2;
+kk -scala/collection/mutable/LinkedHashMap#get().2+
+kk todo/PersistentModel.idStore.2.
+kk  todo/PersistentModel.read().(id)2,
+mm todo/PersistentModel.update().20
+mm "todo/PersistentModel.update().(id)2
+mm todo/data/Id#2/
+mm !todo/PersistentModel.update().(f)2
+mm todo/data/Task#2
+m m $todo/data/Task#2
+m'm -scala/Option#2
+m.m 2todo/data/Task#2B
+nn 4scala/collection/mutable/LinkedHashMap#updateWith().2+
+nn todo/PersistentModel.idStore.20
+nn "todo/PersistentModel.update().(id)2
+nn local52!
+n'n *scala/Option#map().2
+n#n &local52/
+n+n ,!todo/PersistentModel.update().(f)2,
+pp todo/PersistentModel.delete().20
+pp "todo/PersistentModel.delete().(id)2
+pp todo/data/Id#2
+pp scala/Boolean#2
+qq local62>
+rr 0scala/collection/mutable/LinkedHashMap#remove().2+
+rr todo/PersistentModel.idStore.20
+rr "todo/PersistentModel.delete().(id)2#
+ss scala/Some.unapply().2
+ss scala/Some.2
+ss local62
+tt scala/None.2
+tt local62
+vv 	local62+
+xx todo/PersistentModel.tasks().2
+xx todo/data/Tasks#2&
+y	y 	todo/data/Tasks.apply().2
+yy 	todo/data/Tasks.2+
+y
+y todo/PersistentModel.idStore.2-
+{{ todo/PersistentModel.tasks(+1).22
+{{ $todo/PersistentModel.tasks(+1).(tag)2
+{{ todo/data/Tag#2
+{{ todo/data/Tasks#2&
+|	| 	todo/data/Tasks.apply().2
+|| 	todo/data/Tasks.2C
+|| 5scala/collection/StrictOptimizedIterableOps#filter().2+
+|
+| todo/PersistentModel.idStore.29
+|$| ,+scala/collection/immutable/List#contains().2"
+|| #todo/data/Task#tags.2
+|| scala/Tuple2#_2.22
+|-| 0$todo/PersistentModel.tasks(+1).(tag)2.
+~~  todo/PersistentModel.complete().22
+~~ $todo/PersistentModel.complete().(id)2
+~~ todo/data/Id#2
+~~ scala/Option#2
+~~ #todo/data/Task#2,
+ 
+todo/PersistentModel.update().22
+ $todo/PersistentModel.complete().(id)2
+ local72$
+  todo/data/Task#copy().2
+ local72-
+' 3todo/data/State.completedNow().2
+! &todo/data/State.2,
+
+ÅÅ 
+todo/PersistentModel.tags().2
+
+ÅÅ todo/data/Tags#2'
+
+ÇÇ todo/data/Tags.apply().2
+
+ÇÇ todo/data/Tags.23
+
+Ç9Ç A#scala/collection/SeqOps#distinct().2:
+
+Ç2Ç 8*scala/collection/IterableOnceOps#toList().2F
+
+ÇÇ 6scala/collection/StrictOptimizedIterableOps#flatMap().2-
+
+Ç	Ç todo/PersistentModel.idStore.2
+
+ÇÇ local92 
+
+ÇÇ scala/Tuple2#_1.2
+
+ÇÇ "local102 
+
+ÇÇ scala/Tuple2#_2.2$
+
+Ç,Ç 0todo/data/Task#tags.2
+
+Ç'Ç +local102-
+
+ÑÑ todo/PersistentModel.clear().2
+
+ÑÑ scala/Unit#2?
+
+ÖÖ /scala/collection/mutable/LinkedHashMap#clear().2-
+
+ÖÖ todo/PersistentModel.idStore.PZ 590331BE163F1AE8D5C2A6ACCAA59562

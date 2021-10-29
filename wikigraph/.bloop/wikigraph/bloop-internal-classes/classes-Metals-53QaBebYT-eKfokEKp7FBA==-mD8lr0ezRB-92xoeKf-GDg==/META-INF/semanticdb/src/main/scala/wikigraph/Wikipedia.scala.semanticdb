@@ -1,0 +1,54 @@
+
+È(src/main/scala/wikigraph/Wikipedia.scala*&
+wikigraph/Wikipedia#*	Wikipedia€*1
+wikigraph/Wikipedia#`<init>`(). €@*<init>€*4
+ wikigraph/Wikipedia#linksFrom(). *	linksFrom€*1
+%wikigraph/Wikipedia#linksFrom().(art)*art€*3
+%wikigraph/Wikipedia#linksFrom().(x$2)  *x$2€*<
+$wikigraph/Wikipedia#nameOfArticle(). *nameOfArticle€*5
+)wikigraph/Wikipedia#nameOfArticle().(art)*art€*7
+)wikigraph/Wikipedia#nameOfArticle().(x$2)  *x$2€*2
+wikigraph/Wikipedia#searchId(). *searchId€*4
+&wikigraph/Wikipedia#searchId().(title)*title€*2
+$wikigraph/Wikipedia#searchId().(x$2)  *x$2€2
+ 
+wikigraph/2+
+ wikigraph/Articles.ArticleId.2!
+ wikigraph/Articles.29
+$ 3+wikigraph/errors/WikiError.ArticleNotFound.29
+$ 3+wikigraph/errors/WikiError.ArticleNotFound#27
+5 B)wikigraph/errors/WikiError.TitleNotFound.27
+5 B)wikigraph/errors/WikiError.TitleNotFound#22
+D L$wikigraph/errors/WikiError.NoResult.22
+D L$wikigraph/errors/WikiError.NoResult#2)
+ !wikigraph/errors/WikiError.2
+ wikigraph/errors/2
+ 
+wikigraph/20
+ )"scala/concurrent/ExecutionContext.20
+ )"scala/concurrent/ExecutionContext#2&
++ 1scala/concurrent/Future.2&
++ 1scala/concurrent/Future#2
+ scala/concurrent/2
+ scala/2"
+ wikigraph/Wikipedia#2-
+ wikigraph/Wikipedia#`<init>`().2.
+  wikigraph/Wikipedia#linksFrom().23
+ %wikigraph/Wikipedia#linksFrom().(art)2+
+ wikigraph/Articles.ArticleId#20
+& 6"scala/concurrent/ExecutionContext#2#
+9 Cwikigraph/WikiResult#2
+D Gscala/Predef.Set#2+
+H Qwikigraph/Articles.ArticleId#22
+   $wikigraph/Wikipedia#nameOfArticle().27
+   )wikigraph/Wikipedia#nameOfArticle().(art)2+
+   "wikigraph/Articles.ArticleId#20
+ *  :"scala/concurrent/ExecutionContext#2#
+ =  Gwikigraph/WikiResult#2"
+ H  Nscala/Predef.String#2-
+** wikigraph/Wikipedia#searchId().24
+** &wikigraph/Wikipedia#searchId().(title)2"
+** scala/Predef.String#20
+*$* 4"scala/concurrent/ExecutionContext#2#
+*7* Awikigraph/WikiResult#2+
+*B* Kwikigraph/Articles.ArticleId#PZ 56F507C0354155AEBC3F908839CD211B

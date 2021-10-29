@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(effective-scala-democracy / unmanagedSources / includeFilter, Some(87f9cbf5-f734-4812-a906-2a87c08bc4a1), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ID character[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: effective-scala-democracy[0m
+[0m[[0m[31merror[0m] [0m[0mExpected project ID[0m
+[0m[[0m[31merror[0m] [0m[0mExpected configuration[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected key[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: effective-scala-democracy[0m
+[0m[[0m[31merror[0m] [0m[0meffective-scala-democracy / unmanagedSources / includeFilter[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

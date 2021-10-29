@@ -1,0 +1,480 @@
+
+óÅ)src/main/scala/wikigraph/WikiResult.scala*+
+wikigraph/WikiResult# Ä*
+WikiResultÄ*2
+ wikigraph/WikiResult#`<init>`(). Ä@*<init>Ä*8
+'wikigraph/WikiResult#`<init>`().(value) Ä*valueÄ*"
+wikigraph/WikiResult#[A]	*AÄ*,
+wikigraph/WikiResult#value. Ä*valueÄ*-
+wikigraph/WikiResult#orElse().*orElseÄ*9
+(wikigraph/WikiResult#orElse().(solution)*solutionÄ*1
+#wikigraph/WikiResult#orElse().(x$2)  *x$2Ä*
+local0 Ä*fÄ*
+local1*x$1Ä*
+local2 Ä*nofailÄ*5
+"wikigraph/WikiResult#fallbackTo().*
+fallbackToÄ*5
+(wikigraph/WikiResult#fallbackTo().(that)*thatÄ*5
+'wikigraph/WikiResult#fallbackTo().(x$2)  *x$2Ä*
+local3 Ä*fÄ*
+local4*x$1Ä*'
+wikigraph/WikiResult#map().*mapÄ*(
+wikigraph/WikiResult#map().[B]	*BÄ*(
+wikigraph/WikiResult#map().(f)*fÄ*.
+ wikigraph/WikiResult#map().(x$2)  *x$2Ä*
+local5*wikiResÄ*
+local6 Ä*anythingÄ*
+local7 Ä*	wikiValueÄ*/
+wikigraph/WikiResult#flatMap().*flatMapÄ*,
+"wikigraph/WikiResult#flatMap().[B]	*BÄ*,
+"wikigraph/WikiResult#flatMap().(f)*fÄ*2
+$wikigraph/WikiResult#flatMap().(x$2)  *x$2Ä*
+local8 Ä*futureBÄ*
+local9*x$1Ä*
+local10 Ä*errorÄ*
+local11 Ä*	wikiValueÄ*'
+wikigraph/WikiResult#zip().*zipÄ*(
+wikigraph/WikiResult#zip().[B]	*BÄ*.
+!wikigraph/WikiResult#zip().(that)*thatÄ*.
+ wikigraph/WikiResult#zip().(x$2)  *x$2Ä*
+local12*zipEithersAccÄ*
+local13*aÄ*
+local14*bÄ*
+local15 Ä*aÄ*
+local16 Ä*bÄ*
+local17 Ä*eÄ*
+local18 Ä*eÄ*
+local19 Ä*e1Ä*
+local20 Ä*e2Ä*
+local21*
+thisEitherÄ*
+local22*
+thatEitherÄ*)
+wikigraph/WikiResult#copy().*copyÄ*)
+wikigraph/WikiResult#copy().[A]	*AÄ*1
+#wikigraph/WikiResult#copy().(value)*valueÄ*=
+&wikigraph/WikiResult#copy$default$1().*copy$default$1Ä*3
+)wikigraph/WikiResult#copy$default$1().[A]	*AÄ*%
+wikigraph/WikiResult#_1().*_1Ä**
+wikigraph/WikiResult.
+ *
+WikiResultÄ*+
+wikigraph/WikiResult.apply().*applyÄ**
+ wikigraph/WikiResult.apply().[A]	*AÄ*2
+$wikigraph/WikiResult.apply().(value)*valueÄ*/
+wikigraph/WikiResult.unapply().*unapplyÄ*,
+"wikigraph/WikiResult.unapply().[A]	*AÄ*0
+$wikigraph/WikiResult.unapply().(x$1)*x$1Ä*1
+ wikigraph/WikiResult.toString().*toStringÄ*5
+"wikigraph/WikiResult.successful().*
+successfulÄ*/
+%wikigraph/WikiResult.successful().[A]	*AÄ*/
+%wikigraph/WikiResult.successful().(a)*aÄ*7
+#wikigraph/WikiResult.domainError().*domainErrorÄ*0
+&wikigraph/WikiResult.domainError().[A]	*AÄ*0
+&wikigraph/WikiResult.domainError().(e)*eÄ*;
+%wikigraph/WikiResult.systemFailure().*systemFailureÄ*2
+(wikigraph/WikiResult.systemFailure().[A]	*AÄ*2
+(wikigraph/WikiResult.systemFailure().(t)*tÄ*+
+wikigraph/WikiResult.start().*startÄ*2
+$wikigraph/WikiResult.start().(block)*blockÄ*0
+"wikigraph/WikiResult.start().(x$2)  *x$2Ä*1
+ wikigraph/WikiResult.traverse().*traverseÄ*-
+#wikigraph/WikiResult.traverse().[A]	*AÄ*-
+#wikigraph/WikiResult.traverse().[B]	*BÄ*/
+$wikigraph/WikiResult.traverse().(as)*asÄ*-
+#wikigraph/WikiResult.traverse().(f)*fÄ*3
+%wikigraph/WikiResult.traverse().(x$3)  *x$3Ä*
+local23*accumulatedÄ*
+local24*currentElementÄ*
+local25*eÄ2
+ 
+wikigraph/20
+ *"scala/concurrent/ExecutionContext.20
+ *"scala/concurrent/ExecutionContext#2&
+, 2scala/concurrent/Future.2&
+, 2scala/concurrent/Future#2
+ scala/concurrent/2
+ scala/2)
+ !wikigraph/errors/WikiError.2)
+ !wikigraph/errors/WikiError#2
+ wikigraph/errors/2
+ 
+wikigraph/2-
+ %wikigraph/errors/WikiException.2-
+ %wikigraph/errors/WikiException#2
+ wikigraph/errors/2
+ 
+wikigraph/2#
+ wikigraph/WikiResult#2.
+  wikigraph/WikiResult#`<init>`().2&
+  &scala/concurrent/Future#2#
+' -scala/package.Either#2 
+. 1scala/package.Seq#2)
+2 ;wikigraph/errors/WikiError#2&
+> ?wikigraph/WikiResult#[A]2&
+ wikigraph/WikiResult#[A]2)
+ wikigraph/WikiResult#value.2,
+ wikigraph/WikiResult#orElse().26
+ (wikigraph/WikiResult#orElse().(solution)2&
+ wikigraph/WikiResult#[A]20
+  0"scala/concurrent/ExecutionContext#2#
+3 =wikigraph/WikiResult#2&
+> ?wikigraph/WikiResult#[A]2
+ 	local02,
+ scala/concurrent/Future#map().2)
+ wikigraph/WikiResult#value.2
+ local12(
+ scala/util/Left.unapply().2!
+ scala/package.Left.2'
+% %scala/util/Right.apply().2"
+  %scala/package.Right.26
+& .(wikigraph/WikiResult#orElse().(solution)2
+ local22)
+ scala/util/Right.unapply().2"
+ scala/package.Right.2
+  &local221
+   #wikigraph/WikiResult#orElse().(x$2)2+
+!! wikigraph/WikiResult.apply().2#
+!! wikigraph/WikiResult.2
+!! local020
+++ "wikigraph/WikiResult#fallbackTo().26
+++ (wikigraph/WikiResult#fallbackTo().(that)2#
+++ $wikigraph/WikiResult#2&
++%+ &wikigraph/WikiResult#[A]20
++/+ ?"scala/concurrent/ExecutionContext#2#
++B+ Lwikigraph/WikiResult#2&
++M+ Nwikigraph/WikiResult#[A]2
+,, 	local320
+,, "scala/concurrent/Future#flatMap().2)
+,, wikigraph/WikiResult#value.2
+-- local42(
+-- scala/util/Left.unapply().2!
+-- scala/package.Left.2)
+-- !wikigraph/WikiResult#value.26
+-- (wikigraph/WikiResult#fallbackTo().(that)2)
+.. scala/util/Right.unapply().2"
+.. scala/package.Right.2)
+.. !wikigraph/WikiResult#value.25
+// 'wikigraph/WikiResult#fallbackTo().(x$2)2+
+00 wikigraph/WikiResult.apply().2#
+00 wikigraph/WikiResult.2
+00 local32)
+99 	wikigraph/WikiResult#map().2,
+9
+9 wikigraph/WikiResult#map().[B]2,
+99 wikigraph/WikiResult#map().(f)2&
+99 wikigraph/WikiResult#[A]2,
+99 wikigraph/WikiResult#map().[B]20
+99 ."scala/concurrent/ExecutionContext#2#
+919 ;wikigraph/WikiResult#2,
+9<9 =wikigraph/WikiResult#map().[B]2+
+:: wikigraph/WikiResult.apply().2#
+:: wikigraph/WikiResult.2,
+:: scala/concurrent/Future#map().2)
+:: wikigraph/WikiResult#value.2
+: : 'local52
+;; local52(
+<< scala/util/Left.unapply().2!
+<< scala/package.Left.2
+<< local62&
+<#< #scala/util/Left.apply().2!
+<< #scala/package.Left.2
+<$< ,local62)
+== scala/util/Right.unapply().2"
+== scala/package.Right.2
+== local72'
+=&= &scala/util/Right.apply().2"
+=!= &scala/package.Right.2&
+=(= (scala/Function1#apply().2,
+='= (wikigraph/WikiResult#map().(f)2
+=)= 2local72.
+??  wikigraph/WikiResult#map().(x$2)2-
+LL wikigraph/WikiResult#flatMap().20
+LL "wikigraph/WikiResult#flatMap().[B]20
+LL "wikigraph/WikiResult#flatMap().(f)2&
+LL wikigraph/WikiResult#[A]2#
+LL #wikigraph/WikiResult#20
+L$L %"wikigraph/WikiResult#flatMap().[B]20
+L.L >"scala/concurrent/ExecutionContext#2#
+LAL Kwikigraph/WikiResult#20
+LLL M"wikigraph/WikiResult#flatMap().[B]2
+MM local82&
+MM scala/concurrent/Future#2#
+MM scala/package.Either#2 
+MM "scala/package.Seq#2)
+M#M ,wikigraph/errors/WikiError#20
+M/M 0"wikigraph/WikiResult#flatMap().[B]20
+M;M B"scala/concurrent/Future#flatMap().2)
+M5M :wikigraph/WikiResult#value.2
+NN local92(
+NN scala/util/Left.unapply().2!
+NN scala/package.Left.2
+NN local1023
+N!N +%scala/concurrent/Future.successful().2&
+NN  scala/concurrent/Future.2#
+N,N 2scala/package.Either#2 
+N3N 6scala/package.Seq#2)
+N7N @wikigraph/errors/WikiError#20
+NCN D"wikigraph/WikiResult#flatMap().[B]2&
+NKN Kscala/util/Left.apply().2!
+NGN Kscala/package.Left.2
+NLN Qlocal102)
+OO scala/util/Right.unapply().2"
+OO scala/package.Right.2
+OO local112)
+O,O 1wikigraph/WikiResult#value.2&
+O O  scala/Function1#apply().20
+OO  "wikigraph/WikiResult#flatMap().(f)2
+O!O *local1122
+PP $wikigraph/WikiResult#flatMap().(x$2)2+
+QQ wikigraph/WikiResult.apply().2#
+QQ wikigraph/WikiResult.2
+QQ local82)
+\\ 	wikigraph/WikiResult#zip().2,
+\
+\ wikigraph/WikiResult#zip().[B]2/
+\\ !wikigraph/WikiResult#zip().(that)2#
+\\ wikigraph/WikiResult#2,
+\\ wikigraph/WikiResult#zip().[B]20
+\(\ 8"scala/concurrent/ExecutionContext#2#
+\;\ Ewikigraph/WikiResult#2&
+\G\ Hwikigraph/WikiResult#[A]2,
+\J\ Kwikigraph/WikiResult#zip().[B]2
+]] local122
+]] local132#
+]] scala/package.Either#2 
+] ] #scala/package.Seq#2)
+]$] -wikigraph/errors/WikiError#2&
+]0] 1wikigraph/WikiResult#[A]2
+]4] 5local142#
+]7] =scala/package.Either#2 
+]>] Ascala/package.Seq#2)
+]B] Kwikigraph/errors/WikiError#2,
+]N] Owikigraph/WikiResult#zip().[B]2#
+]S] Yscala/package.Either#2 
+]Z] ]scala/package.Seq#2)
+]^] gwikigraph/errors/WikiError#2&
+]k] lwikigraph/WikiResult#[A]2,
+]n] owikigraph/WikiResult#zip().[B]2#
+]t] tscala/Tuple2.apply().2
+]t] ulocal132
+]w] xlocal142%
+^^ scala/Tuple2.unapply().2)
+^^ scala/util/Right.unapply().2"
+^^ scala/package.Right.2
+^^ local152)
+^^ scala/util/Right.unapply().2"
+^^ scala/package.Right.2
+^^ local162'
+^(^ (scala/util/Right.apply().2"
+^#^ (scala/package.Right.2#
+^*^ *scala/Tuple2.apply().2
+^*^ +local152
+^-^ .local162%
+__ scala/Tuple2.unapply().2(
+__ scala/util/Left.unapply().2!
+__ scala/package.Left.2
+__ local172)
+__ scala/util/Right.unapply().2"
+__ scala/package.Right.2&
+_&_ &scala/util/Left.apply().2!
+_"_ &scala/package.Left.2
+_'_ (local172%
+`` scala/Tuple2.unapply().2)
+`` scala/util/Right.unapply().2"
+`` scala/package.Right.2(
+`` scala/util/Left.unapply().2!
+`` scala/package.Left.2
+`` local182&
+`&` &scala/util/Left.apply().2!
+`"` &scala/package.Left.2
+`'` (local182%
+aa scala/Tuple2.unapply().2(
+aa scala/util/Left.unapply().2!
+aa scala/package.Left.2
+aa local192(
+aa scala/util/Left.unapply().2!
+aa scala/package.Left.2
+aa local202&
+a'a 'scala/util/Left.apply().2!
+a#a 'scala/package.Left.22
+a+a -$scala/collection/IterableOps#`++`().2
+a(a *local192
+a.a 0local202+
+cc wikigraph/WikiResult.apply().2#
+cc wikigraph/WikiResult.20
+cc !"scala/concurrent/Future#flatMap().2)
+cc wikigraph/WikiResult#value.2
+c$c .local212,
+dd scala/concurrent/Future#map().2)
+dd wikigraph/WikiResult#value.2/
+dd 
+!wikigraph/WikiResult#zip().(that)2
+dd !local222
+ee local122
+ee  local212
+e"e ,local222.
+ff  wikigraph/WikiResult#zip().(x$2)2.
+gg  wikigraph/WikiResult#zip().(x$2)2#
+ii wikigraph/WikiResult.20
+pp "wikigraph/WikiResult.successful().23
+pp %wikigraph/WikiResult.successful().[A]23
+pp %wikigraph/WikiResult.successful().(a)23
+pp %wikigraph/WikiResult.successful().[A]2#
+pp %wikigraph/WikiResult#23
+p&p '%wikigraph/WikiResult.successful().[A]2+
+p5p 5wikigraph/WikiResult.apply().2#
+p+p 5wikigraph/WikiResult.23
+p=p G%scala/concurrent/Future.successful().2&
+p6p <scala/concurrent/Future.2'
+pMp Mscala/util/Right.apply().2"
+pHp Mscala/package.Right.2 
+pNp Qscala/package.Seq#2)
+pRp [wikigraph/errors/WikiError#23
+p^p _%wikigraph/WikiResult.successful().[A]23
+pap b%wikigraph/WikiResult.successful().(a)21
+ww #wikigraph/WikiResult.domainError().24
+ww &wikigraph/WikiResult.domainError().[A]24
+ww &wikigraph/WikiResult.domainError().(e)2)
+ww !wikigraph/errors/WikiError#2#
+w$w .wikigraph/WikiResult#24
+w/w 0&wikigraph/WikiResult.domainError().[A]2+
+w>w >wikigraph/WikiResult.apply().2#
+w4w >wikigraph/WikiResult.23
+wFw P%scala/concurrent/Future.successful().2&
+w?w Escala/concurrent/Future.2&
+wUw Uscala/util/Left.apply().2!
+wQw Uscala/package.Left.2 
+wVw Yscala/package.Seq#2)
+wZw cwikigraph/errors/WikiError#24
+wfw g&wikigraph/WikiResult.domainError().[A]2;
+wlw l-scala/collection/SeqFactory.Delegate#apply().2 
+wiw lscala/package.Seq.24
+wmw n&wikigraph/WikiResult.domainError().(e)23
+~~ %wikigraph/WikiResult.systemFailure().26
+~~ (wikigraph/WikiResult.systemFailure().[A]26
+~~ (wikigraph/WikiResult.systemFailure().(t)2-
+~~ 'wikigraph/errors/WikiException#2#
+~*~ 4wikigraph/WikiResult#26
+~5~ 6(wikigraph/WikiResult.systemFailure().[A]2+
+~D~ Dwikigraph/WikiResult.apply().2#
+~:~ Dwikigraph/WikiResult.2/
+~L~ R!scala/concurrent/Future.failed().2&
+~E~ Kscala/concurrent/Future.26
+~S~ T(wikigraph/WikiResult.systemFailure().(t)2-
+
+ÖÖ wikigraph/WikiResult.start().24
+
+ÖÖ $wikigraph/WikiResult.start().(block)2
+
+ÖÖ scala/Unit#22
+
+Ö"Ö 2"scala/concurrent/ExecutionContext#2%
+
+Ö5Ö ?wikigraph/WikiResult#2
+
+Ö@Ö Dscala/Unit#2-
+
+ÖRÖ Rwikigraph/WikiResult.apply().2%
+
+ÖHÖ Rwikigraph/WikiResult.20
+
+ÖYÖ Y scala/concurrent/Future.apply().2(
+
+ÖSÖ Yscala/concurrent/Future.2)
+
+Ö_Ö _scala/util/Right.apply().2$
+
+ÖZÖ _scala/package.Right.24
+
+Ö`Ö e$wikigraph/WikiResult.start().(block)22
+
+ÖgÖ g"wikigraph/WikiResult.start().(x$2)20
+
+öö  wikigraph/WikiResult.traverse().23
+
+öö #wikigraph/WikiResult.traverse().[A]23
+
+öö #wikigraph/WikiResult.traverse().[B]24
+
+öö $wikigraph/WikiResult.traverse().(as)2"
+
+öö scala/package.Seq#23
+
+öö #wikigraph/WikiResult.traverse().[A]23
+
+ö!ö "#wikigraph/WikiResult.traverse().(f)23
+
+ö$ö %#wikigraph/WikiResult.traverse().[A]2%
+
+ö)ö 3wikigraph/WikiResult#23
+
+ö4ö 5#wikigraph/WikiResult.traverse().[B]22
+
+ö>ö N"scala/concurrent/ExecutionContext#2%
+
+öQö [wikigraph/WikiResult#2"
+
+ö\ö _scala/package.Seq#23
+
+ö`ö a#wikigraph/WikiResult.traverse().[B]2<
+
+õõ ,scala/collection/IterableOnceOps#foldLeft().23
+
+õõ 
+#scala/collection/IterableOps#map().24
+
+õõ $wikigraph/WikiResult.traverse().(as)23
+
+õõ #wikigraph/WikiResult.traverse().(f)22
+
+õ"õ ,"wikigraph/WikiResult.successful().2%
+
+õõ !wikigraph/WikiResult.2"
+
+õ-õ 0scala/package.Seq#23
+
+õ1õ 2#wikigraph/WikiResult.traverse().[B]2=
+
+õ9õ >-scala/collection/SeqFactory.Delegate#empty().2"
+
+õ5õ 8scala/package.Seq.23
+
+õ?õ @#wikigraph/WikiResult.traverse().[B]2
+
+õEõ Plocal232
+
+õRõ `local242+
+
+ú2ú 5wikigraph/WikiResult#map().2+
+
+úú wikigraph/WikiResult#zip().2
+
+úú local232+
+
+ú%ú (wikigraph/WikiResult#map().2
+
+úú $local242=
+
+ú,ú ,-scala/collection/SeqFactory.Delegate#apply().2"
+
+ú)ú ,scala/package.Seq.25
+
+ú0ú 0%wikigraph/WikiResult.traverse().(x$3)25
+
+ú1ú 1%wikigraph/WikiResult.traverse().(x$3)2
+
+ú6ú 7local2524
+
+ú@ú B$scala/collection/IterableOps#`++`().2 
+
+ú=ú ?scala/Tuple2#_1.2
+
+ú;ú <local252 
+
+úEú Gscala/Tuple2#_2.2
+
+úCú Dlocal2525
+
+úHú H%wikigraph/WikiResult.traverse().(x$3)PZ D24947150EEBE7ABD4951B2500D89D93

@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Compile / unmanagedSources / includeFilter, Some(0390da34-f04b-48c1-81bf-fe779e1e2748), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / unmanagedSources / includeFilter[0m
+[0m[[0m[0minfo[0m] [0m[0mExtensionFilter(java,scala,sc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

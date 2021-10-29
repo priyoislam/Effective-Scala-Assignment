@@ -1,0 +1,113 @@
+
+£0%src/main/scala/wikigraph/Errors.scala*/
+wikigraph/errors/WikiError# *	WikiError€*8
+&wikigraph/errors/WikiError#`<init>`(). €@*<init>€*/
+wikigraph/errors/WikiError.
+ *	WikiError€*F
++wikigraph/errors/WikiError.ArticleNotFound# €*ArticleNotFound€*H
+6wikigraph/errors/WikiError.ArticleNotFound#`<init>`(). €@*<init>€*H
+:wikigraph/errors/WikiError.ArticleNotFound#`<init>`().(id) €*id€*<
+.wikigraph/errors/WikiError.ArticleNotFound#id. €*id€*?
+2wikigraph/errors/WikiError.ArticleNotFound#copy().*copy€*A
+6wikigraph/errors/WikiError.ArticleNotFound#copy().(id)*id€*S
+<wikigraph/errors/WikiError.ArticleNotFound#copy$default$1().*copy$default$1€*;
+0wikigraph/errors/WikiError.ArticleNotFound#_1().*_1€*E
++wikigraph/errors/WikiError.ArticleNotFound.
+ *ArticleNotFound€*A
+3wikigraph/errors/WikiError.ArticleNotFound.apply().*apply€*B
+7wikigraph/errors/WikiError.ArticleNotFound.apply().(id)*id€*E
+5wikigraph/errors/WikiError.ArticleNotFound.unapply().*unapply€*F
+:wikigraph/errors/WikiError.ArticleNotFound.unapply().(x$1)*x$1€*G
+6wikigraph/errors/WikiError.ArticleNotFound.toString().*toString€*B
+)wikigraph/errors/WikiError.TitleNotFound# €*TitleNotFound€*F
+4wikigraph/errors/WikiError.TitleNotFound#`<init>`(). €@*<init>€*F
+8wikigraph/errors/WikiError.TitleNotFound#`<init>`().(id) €*id€*:
+,wikigraph/errors/WikiError.TitleNotFound#id. €*id€*=
+0wikigraph/errors/WikiError.TitleNotFound#copy().*copy€*?
+4wikigraph/errors/WikiError.TitleNotFound#copy().(id)*id€*Q
+:wikigraph/errors/WikiError.TitleNotFound#copy$default$1().*copy$default$1€*9
+.wikigraph/errors/WikiError.TitleNotFound#_1().*_1€*A
+)wikigraph/errors/WikiError.TitleNotFound.
+ *TitleNotFound€*?
+1wikigraph/errors/WikiError.TitleNotFound.apply().*apply€*@
+5wikigraph/errors/WikiError.TitleNotFound.apply().(id)*id€*C
+3wikigraph/errors/WikiError.TitleNotFound.unapply().*unapply€*D
+8wikigraph/errors/WikiError.TitleNotFound.unapply().(x$1)*x$1€*E
+4wikigraph/errors/WikiError.TitleNotFound.toString().*toString€*8
+$wikigraph/errors/WikiError.NoResult# €*NoResult€*A
+/wikigraph/errors/WikiError.NoResult#`<init>`(). €@*<init>€*G
+6wikigraph/errors/WikiError.NoResult#`<init>`().(query) €*query€*;
+*wikigraph/errors/WikiError.NoResult#query. €*query€*8
++wikigraph/errors/WikiError.NoResult#copy().*copy€*@
+2wikigraph/errors/WikiError.NoResult#copy().(query)*query€*L
+5wikigraph/errors/WikiError.NoResult#copy$default$1().*copy$default$1€*4
+)wikigraph/errors/WikiError.NoResult#_1().*_1€*7
+$wikigraph/errors/WikiError.NoResult.
+ *NoResult€*:
+,wikigraph/errors/WikiError.NoResult.apply().*apply€*A
+3wikigraph/errors/WikiError.NoResult.apply().(query)*query€*>
+.wikigraph/errors/WikiError.NoResult.unapply().*unapply€*?
+3wikigraph/errors/WikiError.NoResult.unapply().(x$1)*x$1€*@
+/wikigraph/errors/WikiError.NoResult.toString().*toString€*7
+wikigraph/errors/WikiException# *WikiException€*<
+*wikigraph/errors/WikiException#`<init>`(). €@*<init>€*7
+wikigraph/errors/WikiException.
+ *WikiException€*:
+'wikigraph/errors/WikiException.Timeout.
+ ˆ*Timeout€*J
+/wikigraph/errors/WikiException.TooManyRequests.
+ ˆ*TooManyRequests€*L
+0wikigraph/errors/WikiException.ResourceNotFound# €*ResourceNotFound€*M
+;wikigraph/errors/WikiException.ResourceNotFound#`<init>`(). €@*<init>€*O
+@wikigraph/errors/WikiException.ResourceNotFound#`<init>`().(res) €*res€*C
+4wikigraph/errors/WikiException.ResourceNotFound#res. €*res€*D
+7wikigraph/errors/WikiException.ResourceNotFound#copy().*copy€*H
+<wikigraph/errors/WikiException.ResourceNotFound#copy().(res)*res€*X
+Awikigraph/errors/WikiException.ResourceNotFound#copy$default$1().*copy$default$1€*@
+5wikigraph/errors/WikiException.ResourceNotFound#_1().*_1€*K
+0wikigraph/errors/WikiException.ResourceNotFound.
+ *ResourceNotFound€*F
+8wikigraph/errors/WikiException.ResourceNotFound.apply().*apply€*I
+=wikigraph/errors/WikiException.ResourceNotFound.apply().(res)*res€*J
+:wikigraph/errors/WikiException.ResourceNotFound.unapply().*unapply€*K
+?wikigraph/errors/WikiException.ResourceNotFound.unapply().(x$1)*x$1€*L
+;wikigraph/errors/WikiException.ResourceNotFound.toString().*toString€2
+ wikigraph/errors/2
+ 
+wikigraph/2!
+ wikigraph/Articles.2
+ 
+wikigraph/2)
+ wikigraph/errors/WikiError#20
+&wikigraph/errors/WikiError#`<init>`().2)
+ wikigraph/errors/WikiError.29
+ +wikigraph/errors/WikiError.ArticleNotFound#2D
+ 6wikigraph/errors/WikiError.ArticleNotFound#`<init>`().2+
+! *wikigraph/Articles.ArticleId#2)
+4 =wikigraph/errors/WikiError#2<
+ .wikigraph/errors/WikiError.ArticleNotFound#id.27
+ )wikigraph/errors/WikiError.TitleNotFound#2B
+ 4wikigraph/errors/WikiError.TitleNotFound#`<init>`().2+
+ (wikigraph/Articles.ArticleId#2)
+2 ;wikigraph/errors/WikiError#2:
+ ,wikigraph/errors/WikiError.TitleNotFound#id.22
+ $wikigraph/errors/WikiError.NoResult#2=
+ /wikigraph/errors/WikiError.NoResult#`<init>`().2"
+ #scala/Predef.String#2)
+- 6wikigraph/errors/WikiError#28
+ *wikigraph/errors/WikiError.NoResult#query.2-
+		 wikigraph/errors/WikiException#28
+	#	 #*wikigraph/errors/WikiException#`<init>`().2&
+	#	 ,scala/package.Exception#2-
+
+
+ wikigraph/errors/WikiException.25
+ 'wikigraph/errors/WikiException.Timeout.2-
+ +wikigraph/errors/WikiException#2=
+ /wikigraph/errors/WikiException.TooManyRequests.2-
+& 3wikigraph/errors/WikiException#2>
+ 0wikigraph/errors/WikiException.ResourceNotFound#2I
+ ;wikigraph/errors/WikiException.ResourceNotFound#`<init>`().2"
+# )scala/Predef.String#2-
+3 @wikigraph/errors/WikiException#2B
+ !4wikigraph/errors/WikiException.ResourceNotFound#res.PZ BD9BDFAABD70109950C8EA195B7F412B
